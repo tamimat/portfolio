@@ -39,7 +39,7 @@ lang: en
 show-subtitle: true
 display-social-icons: false
 
-footer-text: <a href="http://steinvc.github.io/holo-alfa/">Portfolio Start</a>
+footer-text: <a href="http://tamimat.github.io/holo-alfa/">Portfolio Start</a>
 
 # Preferably 64px in height. Leave empty = disable.
 logo-image: # /img/logo.png
