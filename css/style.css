@@ -19,7 +19,7 @@
 /* Content */
 
 body {
-  font-family: "Inconsolata", mon;
+  font-family: "Inconsolata", monospace;
   font-size: 16px;
   -webkit-font-smoothing: antialiased;
   font-weight: 400;
@@ -94,7 +94,7 @@ h1, h2, h3, h4, h5, h6 {
   letter-spacing: normal;
 }
 h1 {
-  font-size: 2em;
+  font-size: 1.5em;
 }
 h2 {
   font-size: 1.3em;
@@ -257,7 +257,7 @@ article {
 }
 article::after {
   margin: 20px 0;
-  content: "•";
+  content: "•••";
   line-height: 0;
   font-size: 24px;
   display: block;
@@ -321,7 +321,7 @@ input[type="submit"] {
   margin-bottom: 50px;
 }
 footer {
-  font-size: 0.8em;
+  font-size: 1.2em;
   color: rgba({{ site.text-color }},1);
   text-align: center;
   background-color: #FBEC2D;
@@ -335,7 +335,7 @@ footer a {
 }
 footer .inner {
   margin: 0 auto;
-  padding: 0 15px;
+  padding: 0 0px;
   max-width: 740px;
 }
 
@@ -352,7 +352,7 @@ footer .inner {
 }
 nav a {
   background: #fbec2d;
-  margin-right: 10px;
+  margin-right: 0px;
   border-radius: 5px;
   font-size: 16px;
   color: #241e1e;
@@ -361,7 +361,7 @@ nav a {
 
 }
 nav a:hover {
-  color: rgba({{ site.text-color }},.76);
+  color: black;
 }
 nav a.current {
   color: rgba({{ site.text-color }}, .76)
@@ -386,7 +386,7 @@ nav a.current {
     font-size: 16px;
   }
   body {
-    font-size: 20px;
+    font-size: 16px;
   }
 }
 @media all and (min-width: 500px) {

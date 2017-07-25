@@ -11,7 +11,7 @@ description:
   subtitle: 
 
 author:
-  name:  # Change this!
+  name: # Change this!
 
   # Necessary for contact page
   email: tamimat@gmails.com # Change this!
@@ -37,7 +37,7 @@ lang: en
 show-subtitle: true
 display-social-icons: false
 
-footer-text: TEST TEST is the footer.<br><a href="http://steinvc.github.io/holo-alfa/">Holo Alfa</a> Jekyll theme crafted by <a href="http://steinvc.github.io/holo-alfa/">Stijn</a>.
+footer-text: <a href="https://tamimat.github.io/portfolio/">Portfolio Start</a>
 
 
 # Preferably 64px in height. Leave empty = disable.
