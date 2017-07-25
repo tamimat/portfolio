@@ -19,11 +19,11 @@
 /* Content */
 
 body {
-  font-family: "Crimson Text", Georgia, Cambria, "Times New Roman", Times, serif;
-  font-size: 22px;
+  font-family: "Inconsolata", mon;
+  font-size: 16px;
   -webkit-font-smoothing: antialiased;
   font-weight: 400;
-  color: rgba({{ site.text-color }}, .8);
+  color: rgba({{ site.text-color }});
   background-color: rgb({{ site.background-color }});
   background-repeat: no-repeat;
   background-size: 100%;
@@ -33,7 +33,7 @@ html, body {
 }
 p, form {
   line-height: 1.4;
-  margin: 30px auto;
+  margin: 10px auto;
   word-wrap: break-word;
 }
 p * {
@@ -46,20 +46,9 @@ i, em {
   font-style: italic;
 }
 a {
-  color: inherit;
+  color: #FF0000;
   text-decoration: none;
   position: relative;
-  background: -webkit-linear-gradient(rgba({{ site.text-color }},.76),rgba({{ site.text-color }},.76));
-  background: -moz-linear-gradient(rgba({{ site.text-color }},.76),rgba({{ site.text-color }},.76));
-  background: -o-linear-gradient(rgba({{ site.text-color }},.76),rgba({{ site.text-color }},.76));
-  background: -ms-linear-gradient(rgba({{ site.text-color }},.76),rgba({{ site.text-color }},.76));
-  background: linear-gradient(rgba({{ site.text-color }},.76),rgba({{ site.text-color }},.76));
-  -webkit-background-size: 1px 1px;
-  -moz-background-size: 1px 1px;
-  background-size: 1px 1px;
-  background-repeat: repeat-x;
-  background-size: 1px 1px;
-  background-position: 0 87%;
 }
 .no-cssgradients a {
   text-decoration: underline;
@@ -95,9 +84,9 @@ img {
   margin: 0 -15px;
   text-align: center;
 }
+
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Source Sans Pro", Verdana, sans-serif;
-  font-weight: 900;
+  font-family: "Abril Fatface", "Arial Black" , sans-serif;
   background-image: none;
   text-decoration: none !important;
   word-wrap: break-word;
@@ -105,15 +94,15 @@ h1, h2, h3, h4, h5, h6 {
   letter-spacing: normal;
 }
 h1 {
-  font-size: 2.2em;
+  font-size: 2em;
 }
 h2 {
-  font-size: 1.5em;
+  font-size: 1.3em;
   margin-top: 40px;
   margin-bottom: 30px;
 }
 h3, h4, h5, h6 {
-  font-size: 1.05em;
+  font-size: 1em;
   margin-top: 40px;
   margin-bottom: 30px;
 }
@@ -173,7 +162,7 @@ blockquote::after {
   margin-bottom: 30px;
 }
 code {
-  font-family: "Source Code Pro", monospace;
+  font-family: "Inconsolata", monospace;
 }
 p code {
   font-size: .7em;
@@ -240,15 +229,16 @@ hr {
   padding: 0 15px;
   max-width: 700px;
   min-height: 100%;
-  margin-bottom: -141px;
+  margin-bottom: 0px;
 }
 .wrap::after {
   content: "";
   display: block;
-  height: 141px;
+  height: 0px;
 }
 header {
-  padding-top: 20px;
+  padding-top: 30px;
+  padding-bottom: 30px;
   position: relative;
   color: rgba({{ site.text-color }},.5);
 }
@@ -257,20 +247,22 @@ header img {
   display: inline-block;
 }
 nav {
-  margin: 20px 0;
+  position: absolute;
+  top: 30px;
+  right: 0;
 }
+
 article {
   margin-top: 30px;
 }
-article::after,
-header::after {
-  margin: 50px 0;
+article::after {
+  margin: 20px 0;
   content: "•";
   line-height: 0;
-  font-size: 60px;
+  font-size: 24px;
   display: block;
   text-align: center;
-  color: rgba({{ site.theme-color }}, 0.4);
+  color: rgba({{ site.theme-color }}, .7);
 }
 article:last-of-type::after {
   content: "";
@@ -281,7 +273,7 @@ a.read-more {
   display: inline-block;
   background-image: none;
   text-decoration: none !important;
-  font-weight: 600;
+  font-weight: 400;
 }
 input[type="email"],
 textarea {
@@ -295,7 +287,7 @@ textarea {
   box-sizing: border-box;
 }
 input[type="submit"] {
-  font-family: "Source Sans Pro", Verdana, sans-serif;
+  font-family: "Inconsolata", monospace;
   font-size: inherit;
   font-weight: 600;
   color: rgba({{ site.text-color }},.76);
@@ -308,7 +300,7 @@ input[type="submit"] {
 }
 .pagination {
   margin-top: -30px;
-  font-family: "Source Sans Pro", Verdana, sans-serif;
+  font-family: "Inconsolata", monospace;
   font-weight: 600;
   padding-bottom: 50px;
 }
@@ -330,16 +322,16 @@ input[type="submit"] {
 }
 footer {
   font-size: 0.8em;
-  color: rgba({{ site.text-color }},0.5);
+  color: rgba({{ site.text-color }},1);
   text-align: center;
-  background-color: rgba({{ site.text-color }}, 0.05);
+  background-color: #FBEC2D;
   border-top: 1px solid rgba({{ site.text-color }}, 0.1);
-  height: 140px;
+  height: 60px;
 }
 footer a {
   background-image: none;
   text-decoration: none !important;
-  font-weight: 600;
+  font-weight: 400;
 }
 footer .inner {
   margin: 0 auto;
@@ -351,24 +343,22 @@ footer .inner {
 /* Content overwrites */
 
 .website-title {
-  font-family: "Source Sans Pro", Verdana, sans-serif;
-  font-weight: 600;
-  font-size: 24px;
-  text-align: center;
-  display: block;
-  background-image: none;
-  text-decoration: none !important;
-  color: rgba({{ site.text-color }}, .76);
+  background: #fbec2d;
+  margin-right: 10px;
+  border-radius: 5px;
+  font-size: 16px;
+  color: #241e1e;
+  padding: 6px 14px;
 }
 nav a {
-  display: block;
-  padding: 5px;
-  text-align: center;
-  background-image: none;
-  text-decoration: none !important;
-  border-radius: 4px;
-  overflow: hidden;
-  position: relative;
+  background: #fbec2d;
+  margin-right: 10px;
+  border-radius: 5px;
+  font-size: 16px;
+  color: #241e1e;
+  padding: 6px 14px;
+}
+
 }
 nav a:hover {
   color: rgba({{ site.text-color }},.76);
@@ -393,10 +383,10 @@ nav a.current {
 
 @media all and (min-width: 370px) {
   .website-title {
-    font-size: 32px;
+    font-size: 16px;
   }
   body {
-    font-size: 24px;
+    font-size: 20px;
   }
 }
 @media all and (min-width: 500px) {
@@ -413,7 +403,7 @@ nav a.current {
   pre,
   p,
   form {
-    margin: 40px 0;
+    margin: 19px 0;
   }
   ol, ul {
     padding-left: 50px;
@@ -427,7 +417,7 @@ nav a.current {
   }
   article::after,
   header::after {
-    margin: 70px;
+    margin: 40px;
   }
   h1 {
     font-size: 2.6em;
@@ -463,13 +453,12 @@ nav a.current {
   }
   nav {
     position: absolute;
-    top: 20px;
     right: 0;
+    top: 27px;
     margin: 0;
   }
   nav a {
     display: inline-block;
-    padding: 5px 8px;
   }
   .website-title {
     margin-bottom: 80px;
@@ -477,7 +466,7 @@ nav a.current {
 }
 @media all and (min-width: 760px) {
   h1 {
-    font-size: 2.9em;
+    font-size: 2em;
   }
   article:last-of-type::after {
     content: "";
