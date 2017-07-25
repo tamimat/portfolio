@@ -1,27 +1,27 @@
 
 # The name of your website.
-name: Holo Alfa
+name: Portfolio
 
 description:
 
   # Description of your site. This will show up in google.
-  meta: Holo Alfa is a minimalist, mobile first Jekyll theme with focus on readability and content.
+  meta: Tamim Swaid Portfolio - Designer &amp; Product Manager based in Silicon Valley on the neverending quest to understand the human mind.
 
   # Description of your site. This will show up on the front page.
-  subtitle: Holo Alfa is a minimalist, mobile first Jekyll theme with focus on readability and content. <a href="https://github.com/steinvc/holo-alfa">&lt;/&gt; on Github</a>.
+  subtitle: 
 
 author:
-  name: Dr. Jekyll # Change this!
+  name:  # Change this!
 
   # Necessary for contact page
-  email: your@email.com # Change this!
+  email: tamimat@gmails.com # Change this!
 
   # Optional text (html) to display after author name. Leave empty if you don't
   # want it.
   info:
 
-url: http://steinvc.github.io
-baseurl: "/holo-alfa"
+url: http://tamimat.github.io
+baseurl: "/portfolio"
 
 # language attribute in <html> element.
 lang: en
@@ -39,6 +39,7 @@ display-social-icons: false
 
 footer-text: This is the footer.<br><a href="http://steinvc.github.io/holo-alfa/">Holo Alfa</a> Jekyll theme crafted by <a href="http://steinvc.github.io/holo-alfa/">Stijn</a>.
 
+
 # Preferably 64px in height. Leave empty = disable.
 logo-image: # /img/logo.png
 
@@ -49,10 +50,10 @@ theme-color-attr: "#00f0ff"
 ms-tile-color: "#00f0ff"
 
 # Color used throughout the theme. Format: R, G, B.
-theme-color: 0, 240, 255 # Original: 0, 240, 255
+theme-color: 255, 0, 0 # Original: 0, 240, 255
 
 # Text color used throughout the theme. Format: R, G, B.
-text-color: 0, 0, 0 # Original: 0, 0, 0
+text-color: 36, 31, 31 # Original: 0, 0, 0
 
 # Background color used throughout the theme. Format: R, G, B.
 # Note: if you change the background color AND you use cover images, you should
@@ -65,14 +66,14 @@ display-author-post-page: true
 display-author-front-page: true
 
 # http://alanwsmith.com/jekyll-liquid-date-formatting-examples
-date_format: "%b %-d, %Y"
+date_format: "%Y"
 
 # Minimal screen-width after which the navigation will change position from
 # vertical to horizontal.
 nav-breaking-point: 520px
 
 # Number of posts on each page.
-paginate: 3
+paginate: 10
 
 # Display links for the previous and next post on post pages.
 display-next-prev-post: false
