@@ -10,6 +10,9 @@ summary: If you want to create a guest post that will appear as if written by an
 
 If you want to create a guest post that will appear as if written by another author, simply add an `author` attribute to the front matter of your blog post. This will be picked up in the template and displayed in the meta-section both on the front page as well as on the individual post pages.
 
+## Some Markdown text with <span style="color:blue">some *blue* text</span>.
+
+
 This post's front matter looks like this:
 
 {% highlight YAML %}
