@@ -240,7 +240,7 @@ hr {
 }
 header {
   padding-top: 30px;
-  padding-bottom: 1px;
+  padding-bottom: 30px;
   position: relative;
   color: rgba({{ site.text-color }},.5);
 }
@@ -326,8 +326,7 @@ footer {
   font-size: 1.2em;
   color: rgba({{ site.text-color }},1);
   text-align: center;
-  background-color: #FBEC2D;
-  border-top: 1px solid rgba({{ site.text-color }}, 0.1);
+  background-color: white;
   height: 60px;
 }
 footer a {
@@ -385,12 +384,12 @@ nav a.current {
 
 /* Structure overwrites */
 
-@media all and (min-width: 370px) {
+@media all and (min-width: 376px) {
   .website-title {
     font-size: 16px;
   }
   body {
-    font-size: 16px;
+    font-size: 20px;
   }
 }
 @media all and (min-width: 500px) {
@@ -414,7 +413,7 @@ nav a.current {
   }
   li {
     padding-left: 10px;
-    margin: 30px 0;
+    margin: 0.3em;
   }
   table {
     margin: 40px auto;
@@ -424,17 +423,17 @@ nav a.current {
     margin: 40px;
   }
   h1 {
-    font-size: 1.8em;
-    margin-bottom: -10px;
+    font-size: 2em;
+    margin-bottom: 20px;
   }
   h2 {
-    font-size: 1.8em;
+    font-size: 1.5em;
     margin-top: 60px;
     margin-bottom: -10px;
   }
   h3, h4, h5, h6 {
     font-size: 1.2em;
-    margin-top: 60px;
+    margin-top: 30px;
     margin-bottom: -10px;
   }
   .img-only {
@@ -470,11 +469,12 @@ nav a.current {
 }
 @media all and (min-width: 760px) {
   h1 {
-    font-size: 1.8em;
+    font-size: 2em;
   }
   article:last-of-type::after {
-    content: "";
+    content: "•";
     margin-top: 120px;
     margin-bottom: 0;
+    font-size: 100px;
   }
 }

@@ -37,7 +37,7 @@ lang: en
 show-subtitle: true
 display-social-icons: false
 
-footer-text: <a href="https://tamimat.github.io/portfolio/">Portfolio Start</a>
+footer-text:
 
 
 # Preferably 64px in height. Leave empty = disable.
