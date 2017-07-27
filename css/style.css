@@ -41,6 +41,7 @@ p, form {
 p * {
   line-height: 1em; /* Bold font line-height fix */
 }
+
 strong {
   font-weight: 700;
 }
@@ -67,7 +68,7 @@ ol {
   list-style: decimal;
 }
 li {
-  margin: 20px 0;
+  margin: 0.2em 0;
   line-height: 1.4;
 }
 li * {
@@ -76,7 +77,7 @@ li * {
 img {
   max-width: 100%;
   display: block;
-  margin: 0 auto;
+  margin: 30px auto;
 }
 .img-only {
   margin: 0 -15px;
@@ -92,21 +93,22 @@ h1, h2, h3, h4, h5, h6 {
   background-image: none;
   text-decoration: none !important;
   word-wrap: break-word;
-  word-spacing: normal;
+  word-spacing: 2px;
   letter-spacing: normal;
+  color: red;
 }
 h1 {
-  font-size: 1.5em;
+  font-size: 2em;
 }
 h2 {
-  font-size: 1.3em;
+  font-size: 1.5em;
   margin-top: 40px;
-  margin-bottom: 30px;
+  margin-bottom: 0px;
 }
 h3, h4, h5, h6 {
-  font-size: 1em;
+  font-size: 1.3em;
   margin-top: 40px;
-  margin-bottom: 30px;
+  margin-bottom: 0px;
 }
 .meta {
   color: rgba({{ site.text-color }}, 0.5);
@@ -142,13 +144,14 @@ tfoot {
 }
 blockquote {
   padding: 0 20px;
-  font-style: italic;
+  font-style:normal;
+  color: grey;
 }
 blockquote::before,
 blockquote::after {
   font-weight: 400;
-  font-size: 80px;
-  color: rgba({{ site.theme-color }}, .4);
+  font-size: 60px;
+  color: rgba({{ site.theme-color }}, .7);
   display: block;
   text-align: center;
   vertical-align: bottom;
@@ -167,7 +170,7 @@ code {
   font-family: "Inconsolata", monospace;
 }
 p code {
-  font-size: .7em;
+  font-size: 1em;
   display: inline-block;
   border-radius: 2px;
   background-color: rgba({{ site.text-color }},.05);
@@ -176,7 +179,7 @@ p code {
 }
 pre {
   display: block;
-  background-color: rgba(0,0,0,.8);
+  background-color: rgba(0,0,0,.9);
   overflow-y: hidden;
   overflow-x: auto;
   font-size: 14px;
@@ -185,21 +188,17 @@ pre {
   color: #f8f8f2;
   line-height: 1.4;
   margin: 30px auto;
+  white-space: pre-wrap;
 }
 pre code {
-  font-size: 14px;
+  font-size: 18px;
 }
 small {
   font-size: .8em;
   color: rgba({{ site.text-color }},.5);
 }
 small a {
-  color: inherit;
-  background-image: -webkit-linear-gradient(rgba({{ site.text-color }},.5),rgba({{ site.text-color }},.5));
-  background-image: -moz-linear-gradient(rgba({{ site.text-color }},.5),rgba({{ site.text-color }},.5));
-  background-image: -o-linear-gradient(rgba({{ site.text-color }},.5),rgba({{ site.text-color }},.5));
-  background-image: -ms-linear-gradient(rgba({{ site.text-color }},.5),rgba({{ site.text-color }},.5));
-  background-image: linear-gradient(rgba({{ site.text-color }},.5),rgba({{ site.text-color }},.5));
+  color: red;
 }
 hr {
   border:none;
@@ -413,7 +412,7 @@ nav a.current {
   }
   li {
     padding-left: 10px;
-    margin: 0.3em;
+    margin: 0.2em;
   }
   table {
     margin: 40px auto;
@@ -432,7 +431,7 @@ nav a.current {
     margin-bottom: -10px;
   }
   h3, h4, h5, h6 {
-    font-size: 1.2em;
+    font-size: 1.3em;
     margin-top: 30px;
     margin-bottom: -10px;
   }
@@ -472,7 +471,7 @@ nav a.current {
     font-size: 2em;
   }
   article:last-of-type::after {
-    content: "•";
+    content: "";
     margin-top: 120px;
     margin-bottom: 0;
     font-size: 100px;
