@@ -24,10 +24,9 @@ To understand the possibilities of intelligent assistants and voice recognition,
 
 Part of the research was to introduce my three-year-old daughter to voice assistants. Seeing how quickly she was able to search for specific videos without being able to write was amazing. This is when I truly grasped how important voice will be for the future of human computer interaction. 
 
-https://youtu.be/GsVt6EfVHB0
+<iframe width="560" height="315" src="https://www.youtube.com/embed/WVAOKZCB104?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
 
 ## The vision statement 
-
 While doing the research, I already was working on the vision. Since the team was scattered around and focused on other tasks, it was difficult to integrate them into process. The general idea I have regarding interfaces is they are glass (Presentation UX Camp). We interact with computers and smartphones through different tools (mouse, keyboard and touch) just to have information displayed on the glass. The addition of  intelligent voice recognition and language understanding would make the "glass" much faster. It all boils down to the following vision statement. 
 
 >"Build the fastest interface for ordering and offering goods and services"

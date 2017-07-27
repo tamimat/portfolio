@@ -1,7 +1,7 @@
 ---
 author:
  name: Interaction Design
-title: Bit by bit
+title: Learning bit by bit
 summary: Teaching the user different voice interaction commands with little non-interrupting visual-nuggets.
 ---
 
