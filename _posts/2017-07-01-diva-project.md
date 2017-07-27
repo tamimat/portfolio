@@ -88,7 +88,7 @@ Later in the project, we also decided to push the color coding paradigm further,
 <small>Feature is partially integrated in Downloadable App</small>
 
 ## Improving the Speech Recognition
-When we started with DIVA, the speech recognition models in use at the time lacked the optimization toward e-commerce. Speech recognition is a complex problem. Baidu, which updated its Chinese speech recognition in 2016, had 70 computer scientists working for two years on that particular problem. DIVA had one speech recognition scientist.
+When we started with DIVA, the speech recognition models in use at the time lacked the optimization toward e-commerce. Speech recognition is a complex problem. Baidu, which updated its Chinese speech recognition in 2016, had 70 computer scientists working for two years on that particular problem. The project DIVA had one speech recognition scientist.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/i3dgd4XTpq4?rel=0&amp;controls=0&amp;showinfo=0&amp;start=33" frameborder="0" allowfullscreen></iframe>
 
@@ -110,7 +110,7 @@ Our QA team member would join one telephone conference call to tell the team how
 
 
 ## Test in the wild
-“I believe that a product benefits the most when all team members participate in usability tests and see what works and what doesn't. Jared Spool, who has decades of experience in the field, states in the article[Fast Path to a Great UX – Increased Exposure Hours](https://articles.uie.com/user_exposure_hours/)
+“I believe that a product benefits the most when all team members participate in usability tests and see what works and what doesn't. Jared Spool, who has decades of experience in the field, states in the article [Fast Path to a Great UX – Increased Exposure Hours](https://articles.uie.com/user_exposure_hours/)
 
 >"Exposure hours. The number of hours each team member is exposed directly to real users interacting with the team’s designs or the team’s competitor’s designs. There is a direct correlation between this exposure and the improvements we see in the designs that team produces."
 
