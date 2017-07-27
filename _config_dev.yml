@@ -77,7 +77,7 @@ nav-breaking-point: 520px
 paginate: 10
 
 # Display links for the previous and next post on post pages.
-display-next-prev-post: false
+display-next-prev-post: true
 
 # Leave empty if you don't want comments on post pages.
 disqus-shortname:
@@ -121,7 +121,7 @@ var_newer: Newer
 var_older: Older
 var_next_post: Next post
 var_previous_post: Previous post
-var_less_than_a_minute_read: Less than a minute read
+var_less_than_a_minute_read: Less than 1 min read
 var_min_read: min read # Text after reading time. Example: 5 min read.
 var_post_by: Post by
 var_guest_post_by: Guest post by
