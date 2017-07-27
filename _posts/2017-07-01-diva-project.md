@@ -145,7 +145,11 @@ We thought that this interaction paradigm wasn't the best solution for a thumb-o
 
 
 ## Designing & Workflow
-I use Sketch to design the interfaces. 
+To organize my thoughts I use post it notes.
+
+![Post It]({{ site.baseurl }}/img/diva-thoughts.jpg)
+
+To design the interfaces I use Sketch.
 
 ![Annotations]({{ site.baseurl }}/img/diva-sketch.png)
 
@@ -153,7 +157,7 @@ To communicate the design specifications, I used a very simple annotation style 
 
 ![Annotations]({{ site.baseurl }}/img/diva-annotation-developer.png)
 
-Later, we implemented the tool Zeplin, which made the process better for both sides.
+Later, we implemented the tool Zeplin in our workflow, which made the process better for everybody. You just upload specific designs directly from Sketch and the dimensions and images can be downloaded directly from Zeplin. 
 
 ![Zeplin]({{ site.baseurl }}/img/diva-zeplin.png)
 
@@ -181,21 +185,20 @@ In May 2016, we went to the Speech Technology Conference "Speechtek". It was a g
 
 ![AppStore]({{ site.baseurl }}/img/diva-appstore.png)
 
-After eight months, we launched DIVA on the Apple AppStore. To give users a real benefit in trying out DIVA, we connected it with the eBay API and later with the Amazon API. Then users could search for a product see it, and then open it in the web browser. The integration was a challenge in itself. Often we had to figure out how we had to structure the API calls to get the data we wanted. In some cases, we were not able to obtain the data in the way we needed it. Nevertheless, we wanted to get our product out in the wild and have people test it and play around with it. The initial idea was to make a purchase possible via voice. That wasn't possible since the eBay API integration for that was too time-consuming. 
+After eight months, we launched DIVA on the Apple AppStore in an Alpha stage. To give users a real benefit in trying out DIVA, we connected it with the eBay API and later with the Amazon API. Then users could search for a product see it, and then open it in the web browser. The integration was a challenge in itself. Often we had to figure out how we had to structure the API calls to get the data we wanted. In some cases, we were not able to obtain the data in the way we needed it. Nevertheless, we wanted to get our product out in the wild and have people test it and play around with it. The initial idea was to make a purchase possible via voice. That wasn't possible since the eBay API integration for that was too time-consuming. 
 
 ## Custom Apps
 
 ![Custom Apps]({{ site.baseurl }}/img/diva-custom-apps.png)
 
-To demo the technology, we generated custom apps. DIVA's design was simple and easy, skinable. This enabled us to generate these apps with customer data in a very short amount of time. 
+To demo the technology, we generated custom apps. DIVA's design was simple and easy, skinable. This enabled us to generate these apps with customed data in a very short amount of time. 
 
 ## Image Recognition
-Having the application in the wild, we wanted to implement image recognition as another feature. The idea was that people could search for products by making a photo. While the team was gathering training data and building the models, I researched similar services and apps that offered a visual recognition service. I also checked the user flow of photo apps for taking a photo. With the best from both worlds, I designed a simple flow and added a camera button to the start page. 
 
-![Custom Apps]({{ site.baseurl }}/img/diva-image-recognition
+![Image Recognition]({{ site.baseurl }}/img/diva-image-recognition
 .png)
 
-When the prototype looked good and the image recognition technology was in place, we implemented the technology in the iOS client. Although we knew that the recognition technology needed to be improved, we wanted to learn how people would use such a feature.
+Having the application in the wild, we wanted to implement image recognition as another feature. The idea was that people could search for products by making a photo. While the team was gathering training data and building the models, I researched similar services and apps that offered a visual recognition service. I also checked the user flow of photo apps for taking a photo. With the best from both worlds, I designed a simple flow and added a camera button to the start page. When the prototype looked good and the image recognition technology was in place, we implemented the technology in the iOS client. Although we knew that the recognition technology needed to be improved, we wanted to learn how people would use such a feature.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/gQJjyue3FH0?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
 
