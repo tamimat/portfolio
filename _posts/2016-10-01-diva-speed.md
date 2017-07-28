@@ -50,7 +50,7 @@ Every time I did the test I shared the results in our weekly meetings and asked 
 
 The engineers also would come up with ideas for simple visual indicators that the system was working or for debugging techniques so the user could see on the screen when something was stuck. 
 
-## 9 months work / 350% faster
+## 350% Faster 
 Nine months later we broke the 1.0 second barrier. It took DIVA only 0.6 seconds until an uttered word was displayed on the device. That was 350% faster than when we started. We were even faster than Apple Siri, and nearly as fast as Google speech recognition. This was a big achievement for the team.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Z8zWNs3hvTw?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>

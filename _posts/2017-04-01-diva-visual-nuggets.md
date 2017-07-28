@@ -16,7 +16,7 @@ Contribution:
 Researcher, Workshop Organizer, Product Designer
 ```
 
-## The problem
+## The Problem
 When we showed DIVA to others, we always needed to show the features that DIVA was capable of doing, such as "Search for price range” or ”Search for attributes". The users said, "Ah, you can do that".
 
 ![Under $100]({{ site.baseurl }}/img/diva-under100.png)

@@ -38,7 +38,7 @@ Part of the research was to introduce my three-year-old daughter to voice assist
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/WVAOKZCB104?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
 
-## The vision statement 
+## Our Vision Statement 
 While doing the research, I already was working on the vision. Since the team was scattered around and focused on other tasks, it was difficult to integrate them into process. The general idea I have regarding [interfaces is they are just a glass pane](https://speakerdeck.com/tamimat/mobile-strategy-framework-beta){:target="_blank"}. We interact with computers and smartphones through different tools (mouse, keyboard and touch) just to have information displayed on the glass. The addition of voice recognition and language understanding would make the "glass" much faster. It all boils down to the following vision statement. 
 
 >Build the fastest interface for ordering and offering goods and services
@@ -59,7 +59,7 @@ This is what DIVA is. It is the new interface for the world of sales. People can
 
 The feedback I received on the story was very good. **"Wow! the best piece I read about a voice interface. Genius!!!!"** The story was then shared with partners to tell them about the product that we were working on.
 
-## The Prototype
+## The First Prototype
 The vision statement was the North Star. The story was our binoculars to see the North Star more clearly. Now we needed something more tangible to know what we would try to build. The best way to do that was to make the product real. My starting point for designing interfaces is (if possible) to look at what is out there and learn from it. See the good things and the not so good things. You immediately can test interaction patterns without building them on your own. The next step was designing an interface. The goal wasn't to have perfect usability, but an interface to tell a story. For a new project it is also a design exercise because the first version of the design language can be explored in a very simple way.
 
 So, I started and designed the very first version of DIVA. I shared the first designs very quickly with the iOS engineer. It is always helpful to get feedback from peers, four eyes see more than two. For the first designs, I used Marvel to make them interactive and easily sharable.
@@ -69,7 +69,7 @@ So, I started and designed the very first version of DIVA. I shared the first de
 </p>
 
 
-## The User Story
+## Our User Story
 But the prototype was not enough, and didn’t tell the whole story. To show the benefits of such an interface, I used personas and embedded the interface in a real life situation. That way I also could show potential AI capabilities and discuss with the team what is possible for us. I extracted the features and highlighted what the AI would need to accomplish to deliver that experience.
 
 <script async class="speakerdeck-embed" data-id="a33c3f9b9e7143e58e1a1e023a67e299" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
