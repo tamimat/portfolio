@@ -30,7 +30,7 @@ AppTek is a strong believer that voice will be the primary interface for consume
 The input I received was, "Think of HAL 9000 or Jarvis and make that for e-commerce." HAL 9000 and Jarvis are fictional intelligent assistants from science fiction movies. The theoretical possibilities were endless. The previous products that AppTek built were more B2B applications. The company’s own speech recognition was just recently enabled to stream the transcription back via the internet, which made the voice assistant possible in the first place. The team was scattered around the world (US East & West Coast & Germany). Most of the team members were only partially dedicated to the product. As the new product manager and designer, I only had the chance to meet part of the team in person, and I had no prior experience working in the field of AI or voice interfaces.
 
 
-## Our team
+## Our Team
 The DIVA project team consisted of 6 members. 
 - 1 × iOS engineer 
 - 2 × backend developers 
@@ -39,17 +39,17 @@ The DIVA project team consisted of 6 members.
 - 1 × QA manager
 - 1 × me 
 
-## Organizing the team
+## Organizing the Team
 To keep the team in sync, we met twice a week in a telephone conference and once per week in person with all the team members on the US West Coast. To avoid filling up our email inbox, we chose Slack. The team already was using JIRA. Since it integrated well with other Atlassian software, we choose Confluence for documentation. 
 
-## Creating the vision
+## Creating the Vision
 The first thing was to figure out what we wanted to build. This was done in the first phase of the project and is described in the post: ["Creating a vision & telling a story"]({% post_url 2016-02-01-diva-vision%}).  
 
-## Keep developers closest
+## Keep Developers Closest
 There is a saying made popular in the Godfather movies: **Keep your friends close, and your enemies closer!** and I would add: **and your developer closest.**
 Computer engineering is a profession that automates things and renders away redundancy. Designers generally can generate their designs quickly, and are therefore more open to changing things once they see they don't work. Those changes for the developer often mean "redo the work you already did," which can be annoying. Though it's good to embrace a culture of change, that culture shouldn't be stretched. To avoid that as much as possible, my goal is always to integrate the developer early in the process and to prepare the work toward him/her. I also like to have direct access to the code via a repository setup. This way I can do small incremental changes to text, animations or colors myself without bothering the developer. That also shows empathy from the designer toward the coder, and can generate a better bond between the two.
 
-## First working prototype
+## First Working Prototype
 
 ![First Designs]({{ site.baseurl }}/img/diva-first-designs.png)
 
@@ -63,7 +63,7 @@ What you can see in this video is that the speech recognition isn't very accurat
 When the tech was in place, we saw how slow our speech recognition was. There were several reasons for that. If you want to read how we tackled that problem, read the case study 
 [“Team, we're faster than Siri!”]({% post_url 2016-10-01-diva-speed%})
 
-## Highlight what you understand
+## Highlight what you Understand
 For an AI based on voice recognition, two technologies are important:
 
 You say: **I wanna buy … running shoes**
@@ -108,7 +108,7 @@ Our QA team member would join one telephone conference call to tell the team how
 ![ASR QA]({{ site.baseurl }}/img/diva-qa-correction-team.png)
 
 
-## Test in the wild
+## Test in the Wild
 I believe that a product benefits the most when all team members participate in usability tests and see what works and what doesn't. Jared Spool, who has decades of experience in the field, states in his article [Fast Path to a Great UX – Increased Exposure Hours](https://articles.uie.com/user_exposure_hours/){:target="_blank"}
 
 >"Exposure hours. The number of hours each team member is exposed directly to real users interacting with the team’s designs or the team’s competitor’s designs. There is a direct correlation between this exposure and the improvements we see in the designs that team produces."
@@ -129,7 +129,7 @@ One of our premises was to make DIVA a hands-free interface. You  should be able
 Here you can see that we included numbers on the product list view. Now, would you want to have an ever-ongoing numbering for the products that you are showing? "Show me the 33rd one"? That’s not the best idea, and it would make the recognition more complicated. Together with the iOS engineer, we thought of just displaying the numbers when the user isn't scrolling. And in this case, we could limit it to the number of products that are shown on the interface. The drawback of this approach was that the product list always needed to lock in, meaning if the user would display only half a product, the list would scroll up or down automatically. It worked. 
 Later, we took that functionality out for the DIVA iOS client because people had DIVA in their hands, and the hands-free situation didn't occur too often.  
 
-## Thumb Orientation leads to certain design decisions
+## Thumb Orientation leads to Certain Design Decisions
 The DIVA client is an app on a handheld device. If you are a designer, you might have seen this graphical representation from Luke W article [Designing for Large Screen Smartphones](https://www.lukew.com/ff/entry.asp?1927){:target="_blank"}, which shows that we interact mainly with our thumbs. The better an app is designed toward the thumbs, the better the usability is.
 
 ![Design for thumb]({{ site.baseurl }}/img/diva-lukew-thumb.png)
@@ -165,7 +165,7 @@ There is no way of checking out if an interaction works well other than prototyp
 
 ![Zeplin]({{ site.baseurl }}/img/diva-flinto-prototyping.png)
 
-## The dirty work
+## The Dirty Work
 In every project there is the dirty work that needs to be done. Things that are tedious and take time. We had a couple of those tasks. Whenever it was possible, I coordinated with people who outsourced that work. But when it wasn't possible, I did it myself.
 
 - Transcribing: Approving and correcting recorded audio utterances.
@@ -178,7 +178,7 @@ In May 2016, we went to the Speech Technology Conference "Speechtek". It was a g
 <script async class="speakerdeck-embed" data-id="c920c4f2928a496d8b4376ab7f9aca46" data-ratio="1.6" src="//speakerdeck.com/assets/embed.js"></script>
 
 
-## The launch
+## The Launch
 
 ![AppStore]({{ site.baseurl }}/img/diva-appstore.png)
 

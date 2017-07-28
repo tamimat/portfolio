@@ -31,7 +31,7 @@ The project was set up as a scrum project. This was due to the way the HQ alread
 
 ![Peer Review]({{ site.baseurl }}/img/retail-peer-review.jpg)<small>Designs and wireframes being peer reviewed</small>
 
-## Who are we
+## Who Are We
 There is a great article by Oliver Reichenstein from Information Architects, [The interface of a cheeseburger](https://ia.net/topics/the-interface-of-a-cheeseburger/){:target="_blank"}. It talks about how you can look at an interface. I think for a team working on digital products it is always important to know what they represent with their interface. So, this is why we asked ourselves this question. The interface of all these applications in the market is the digital interface that connects the store with the headquarters. So, the headquarters is sending a message with this channel that they are providing. The look and feel of an interface should reflect how the headquarters views its stores. So, we boiled down our vision statement to this sentence: 
 
 > "We are the message that the headquarters sends to the stores."
@@ -40,7 +40,7 @@ Our goal was that this message be a delightful message that respects the user as
 
 ![Peer Review]({{ site.baseurl }}/img/retail-vision.jpg)<small>Our war room with our vision statement</small>
 
-## Sprints 0
+## Sprint 0
 **Planned: 1 × 5 days**\\
 **Reality: 1 × 3.5 days**
 
