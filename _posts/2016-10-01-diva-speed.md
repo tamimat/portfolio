@@ -25,7 +25,7 @@ When AppTek speech recognition technology debuted, it recorded the audio data, s
 Especially when it was compared to other voice recognition systems. Back then the team was not aware that this might be too slow for the user. It "worked" and there were other problems the team needed to solve.
 
 ## Approach
-First, we had to understand as a team that this was a real issue. As Jakob Nielsen writes in his article [Response Times](https://www.nngroup.com/articles/response-times-3-important-limits/) in human-computer interaction, three time limits are crucial, and every interaction designer should know them: 0.1 second, 1.0 second and 10 seconds.
+First, we had to understand as a team that this was a real issue. As Jakob Nielsen writes in his article [Response Times](https://www.nngroup.com/articles/response-times-3-important-limits/){:target="_blank"} in human-computer interaction, three time limits are crucial, and every interaction designer should know them: 0.1 second, 1.0 second and 10 seconds.
 
 - **0.1 second** is about the limit for having the user feel that the **system is reacting instantaneously**.
 

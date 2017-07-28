@@ -54,7 +54,7 @@ Computer engineering is a profession that automates things and renders away redu
 
 ![First Designs]({{ site.baseurl }}/img/diva-first-designs.png)
 
-The first [click prototype](https://marvelapp.com/4383a86) was designed for the [user story]({% post_url 2016-02-01-diva-vision%}). By building that interactive prototype, we had a couple of screens, colors and a design direction that we had checked out. The next step was to make the prototype real. As quickly as possible. To make a prototype app with a working speech recognition and language understanding, the team had to gather training data from the internet to create the needed models for interpreting the search queries and to improve the speech recognition quality. We decided that at the beginning we would not connect to an e-commerce API, but build our own product database connected to a Lucene search. That way we could act more quickly and were not dependent on other infrastructures. Meanwhile, the iOS engineer and I teamed up to bring the design prototype to life. I quickly saw how some of the designs could be improved and simplified for the client design. After three weeks, we had the first working prototype in place that searched on our product database.
+The first [click prototype](https://marvelapp.com/4383a86){:target="_blank"} was designed for the [user story]({% post_url 2016-02-01-diva-vision%}). By building that interactive prototype, we had a couple of screens, colors and a design direction that we had checked out. The next step was to make the prototype real. As quickly as possible. To make a prototype app with a working speech recognition and language understanding, the team had to gather training data from the internet to create the needed models for interpreting the search queries and to improve the speech recognition quality. We decided that at the beginning we would not connect to an e-commerce API, but build our own product database connected to a Lucene search. That way we could act more quickly and were not dependent on other infrastructures. Meanwhile, the iOS engineer and I teamed up to bring the design prototype to life. I quickly saw how some of the designs could be improved and simplified for the client design. After three weeks, we had the first working prototype in place that searched on our product database.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/wkhvE5JUb60?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
 
@@ -110,7 +110,7 @@ Our QA team member would join one telephone conference call to tell the team how
 
 
 ## Test in the wild
-“I believe that a product benefits the most when all team members participate in usability tests and see what works and what doesn't. Jared Spool, who has decades of experience in the field, states in the article [Fast Path to a Great UX – Increased Exposure Hours](https://articles.uie.com/user_exposure_hours/)
+“I believe that a product benefits the most when all team members participate in usability tests and see what works and what doesn't. Jared Spool, who has decades of experience in the field, states in the article [Fast Path to a Great UX – Increased Exposure Hours](https://articles.uie.com/user_exposure_hours/){:target="_blank"}
 
 >"Exposure hours. The number of hours each team member is exposed directly to real users interacting with the team’s designs or the team’s competitor’s designs. There is a direct correlation between this exposure and the improvements we see in the designs that team produces."
 
@@ -131,7 +131,7 @@ Here you can see that we included numbers on the product list view. Now, would y
 Later, we took that functionality out for the DIVA iOS client because people had DIVA in their hands, and the hands-free situation didn't occur too often.  
 
 ## Thumb Orientation leads to certain design decisions
-The DIVA client is an app on a handheld device. If you are a designer, you might have seen this graphical representation from Luke W article [Designing for Large Screen Smartphones](https://www.lukew.com/ff/entry.asp?1927), which shows that we interact mainly with our thumbs. The better an app is designed toward the thumbs, the better the usability is.
+The DIVA client is an app on a handheld device. If you are a designer, you might have seen this graphical representation from Luke W article [Designing for Large Screen Smartphones](https://www.lukew.com/ff/entry.asp?1927){:target="_blank"}, which shows that we interact mainly with our thumbs. The better an app is designed toward the thumbs, the better the usability is.
 
 ![Design for thumb]({{ site.baseurl }}/img/diva-lukew-thumb.png)
 
