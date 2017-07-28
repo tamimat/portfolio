@@ -46,7 +46,7 @@ Then I replayed the recording and counted the frames between the uttering of wor
 ## Teamwork
 Every time I did the test I shared the results in our weekly meetings and asked the team what we could do about it. The engineers came up with ideas. After those were deployed, I tested again and shared the results. It was important to keep working on the issue continuously. It is only when a problem haunts you that you think about solutions. To ensure this was the case, the team needed to be made aware of the issue. The process went on for nine months. Not every change we deployed made it better. But every change meant we were trying, and gave us a new way of looking at things. 
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/l1FXgdjkP70?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe><small>DIVA shows outputs numbers for debugging the system</small>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/l1FXgdjkP70?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe><small><center>DIVA shows outputs numbers for debugging the speech recognition</center></small>
 
 The engineers also would come up with ideas for simple visual indicators that the system was working or for debugging techniques so the user could see on the screen when something was stuck. 
 

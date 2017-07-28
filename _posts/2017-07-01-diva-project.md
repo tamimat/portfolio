@@ -18,19 +18,19 @@ Product Designer & Product Manager: Trying to keep a balance between my inner dr
 
 ![AppTek Commerce]({{ site.baseurl }}/img/diva-apptek-commerce.png)
 
-## The situation
+## Situation
 AppTek is a speech recognition company that licenses its speech recognition engine to its clients, tailored to their needs.
 AppTek is a strong believer that voice will be the primary interface for consumer computing within the next few years. So the company decided to offer a voice interface platform for e-commerce companies powered by their speech recognition and natural language understanding technologies. The outcome should be a platform that would make it possible for other e-commerce companies to offer voice-based services in their interfaces (web, mobile). To showcase the capabilities and to develop the platform, we built a shopping assistant called DIVA (Digital Intelligent Voice Assistant).
 
 
-## The challenge
+## Challenge
 
 ![Map]({{ site.baseurl }}/img/diva-map.png)
 
 The input I received was, "Think of HAL 9000 or Jarvis and make that for e-commerce." HAL 9000 and Jarvis are fictional intelligent assistants from science fiction movies. The theoretical possibilities were endless. The previous products that AppTek built were more B2B applications. The company’s own speech recognition was just recently enabled to stream the transcription back via the internet, which made the voice assistant possible in the first place. The team was scattered around the world (US East & West Coast & Germany). Most of the team members were only partially dedicated to the product. As the new product manager and designer, I only had the chance to meet part of the team in person, and I had no prior experience working in the field of AI or voice interfaces.
 
 
-## The team
+## Our team
 The DIVA project team consisted of 6 members. 
 - 1 × iOS engineer 
 - 2 × backend developers 
@@ -46,11 +46,10 @@ To keep the team in sync, we met twice a week in a telephone conference and once
 The first thing was to figure out what we wanted to build. This was done in the first phase of the project and is described in the post: ["Creating a vision & telling a story"]({% post_url 2016-02-01-diva-vision%}).  
 
 ## Keep developers closest
-
 There is a saying made popular in the Godfather movies: **Keep your friends close, and your enemies closer!** and I would add: **and your developer closest.**
 Computer engineering is a profession that automates things and renders away redundancy. Designers generally can generate their designs quickly, and are therefore more open to changing things once they see they don't work. Those changes for the developer often mean "redo the work you already did," which can be annoying. Though it's good to embrace a culture of change, that culture shouldn't be stretched. To avoid that as much as possible, my goal is always to integrate the developer early in the process and to prepare the work toward him/her. I also like to have direct access to the code via a repository setup. This way I can do small incremental changes to text, animations or colors myself without bothering the developer. That also shows empathy from the designer toward the coder, and can generate a better bond between the two.
 
-## The first working prototype
+## First working prototype
 
 ![First Designs]({{ site.baseurl }}/img/diva-first-designs.png)
 
@@ -169,11 +168,9 @@ There is no way of checking out if an interaction works well other than prototyp
 ## The dirty work
 In every project there is the dirty work that needs to be done. Things that are tedious and take time. We had a couple of those tasks. Whenever it was possible, I coordinated with people who outsourced that work. But when it wasn't possible, I did it myself.
 
-- Transcribing and correcting recorded audio utterances. See "speech recognition"
-- Correcting computer generated phonemes. 
-For example, if you say "USA," you actually say "YOU ESS AY." If you give the word to a computer to generate the phoneme automatically, it might generate it as a word (USAH), and not as single letters . Those computer-generated phonemes needed to be rechecked to improve the speech recognition.
-- Cleaning Data
-When data is scraped for training models it is dirty, especially when the data is user-generated. This means there is data you don't want to have there. Between pictures of laptops, you may find boxes of laptops. The data needs to be cleaned up.
+- Transcribing: Approving and correcting recorded audio utterances.
+- Correcting computer generated phonemes: For example, if you say "USA," you actually say "YOU ESS AY." If you give the word to a computer to generate the phoneme automatically, it might generate it as a word (USAH), and not as single letters . Those computer-generated phonemes needed to be rechecked to improve the speech recognition.
+- Cleaning Data: When data is scraped for training models it is dirty, especially when the data is user-generated. This means there is data you don't want to have there. Between pictures of laptops, you may find boxes of laptops. The data needs to be cleaned up.
 
 ## Speechtek 2016
 In May 2016, we went to the Speech Technology Conference "Speechtek". It was a good time to show what we were working on. Here are the slides that I presented.
