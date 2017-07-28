@@ -39,14 +39,13 @@ Part of the research was to introduce my three-year-old daughter to voice assist
 <iframe width="560" height="315" src="https://www.youtube.com/embed/WVAOKZCB104?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
 
 ## The vision statement 
-While doing the research, I already was working on the vision. Since the team was scattered around and focused on other tasks, it was difficult to integrate them into process. The general idea I have regarding [interfaces is they are just a glass pane](https://www.slideshare.net/tamimat/mobile-strategy-framework-beta). We interact with computers and smartphones through different tools (mouse, keyboard and touch) just to have information displayed on the glass. The addition of intelligent voice recognition and language understanding would make the "glass" much faster. It all boils down to the following vision statement. 
+While doing the research, I already was working on the vision. Since the team was scattered around and focused on other tasks, it was difficult to integrate them into process. The general idea I have regarding [interfaces is they are just a glass pane](https://speakerdeck.com/tamimat/mobile-strategy-framework-beta). We interact with computers and smartphones through different tools (mouse, keyboard and touch) just to have information displayed on the glass. The addition of voice recognition and language understanding would make the "glass" much faster. It all boils down to the following vision statement. 
 
-![DIVA Vision]({{ site.baseurl }}/img/diva-vision.jpg)
+>Build the fastest interface for ordering and offering goods and services
 
-To communicate the vision, I came up with the idea of using an analogy of a salesman standing behind the glass, where the glass symbolizes the device’s screen. Here's the email that I wrote to the team.
+To communicate the vision, I came up with the idea of using an analogy of a salesman standing behind the glass, where the glass symbolizes the device’s screen. Here's the email that I wrote to the team:
 
-
-<p style="border:1px; border-style:dashed; border-color:red; padding: 1em;">"There is a very good salesman. You know, those guys who can sell you exactly what you need. As if they could read your mind. We all have dealt with those guys. The problem with this salesman is he is standing behind a wall made out of very thick and durable frosted glass. He can’t see who is on the other side, but he can write on it and people can read his messages. So, he writes, "I sell things.” The only thing he is able to do is make a tiny slot in the glass. So, people write their orders, such as “nice jeans” or “hiking boots” on pieces of paper and slide them through the slot. The people can’t see or hear the salesman, though. They only can see the pictures that show up on the glass wall, along with some descriptions he writes. They tap on the things they want. The salesman can see their taps. Then he holds a sign next to the picture: “I want to buy this” So, people tap on that and write down their address. He takes it and let the postman delivers the order to the customer. It is a very complicated way of selling and buying stuff, but it works.<br>
+<p style="border:1px; border-style:dashed; border-color:gray; padding: 1em;">"There is a very good salesman. You know, those guys who can sell you exactly what you need. As if they could read your mind. We all have dealt with those guys. The problem with this salesman is he is standing behind a wall made out of very thick and durable frosted glass. He can’t see who is on the other side, but he can write on it and people can read his messages. So, he writes, "I sell things.” The only thing he is able to do is make a tiny slot in the glass. So, people write their orders, such as “nice jeans” or “hiking boots” on pieces of paper and slide them through the slot. The people can’t see or hear the salesman, though. They only can see the pictures that show up on the glass wall, along with some descriptions he writes. They tap on the things they want. The salesman can see their taps. Then he holds a sign next to the picture: “I want to buy this” So, people tap on that and write down their address. He takes it and let the postman delivers the order to the customer. It is a very complicated way of selling and buying stuff, but it works.<br>
 <br>
 So then there comes a glass maker. He sees that and thinks: I can help the salesman by inventing better glass. So, he invents new glass and calls it DIVA.<br>
 <br>
@@ -58,8 +57,6 @@ Now the world of this salesman changes dramatically. He can see and hear his cus
 <br>
 This is what DIVA is. It is the new interface for the world of sales. People can talk with it, tap on the things they want, or just say them out loud. DIVA is so fast and accurate that people are amazed by it. They visit more often since buying things is so easy.</p>
 
-
-
 The feedback I received on the story was very good. **"Wow! the best piece I read about a voice interface. Genius!!!!"** The story was then shared with partners to tell them about the product that we were working on.
 
 ## The Prototype
@@ -67,12 +64,16 @@ The vision statement was the North Star. The story was our binoculars to see the
 
 So, I started and designed the very first version of DIVA. I shared the first designs very quickly with the iOS engineer. It is always helpful to get feedback from peers, four eyes see more than two. For the first designs, I used Marvel to make them interactive and easily sharable.
 
-https://marvelapp.com/4383a86/screen/9676558
+<p align="center">
+<iframe src="https://marvelapp.com/4383a86?emb=1" width="452" height="901" allowTransparency="true" frameborder="0"></iframe>
+</p>
 
+
+## The User Story
 But the prototype was not enough, and didn’t tell the whole story. To show the benefits of such an interface, I used personas and embedded the interface in a real life situation. That way I also could show potential AI capabilities and discuss with the team what is possible for us. I extracted the features and highlighted what the AI would need to accomplish to deliver that experience.
 
-https://www.dropbox.com/s/pzofrjel6w23c70/DIVA%20Vision%20Conversational%20Commerce%202016-Jan.pdf?dl=0
+<script async class="speakerdeck-embed" data-id="a33c3f9b9e7143e58e1a1e023a67e299" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
 
 ## Retrospect
-The visualized story was used extensively, internally, and with external business partners. I later extended the story to other scenarios. It served us very well and gave us all a similar understanding of what we wanted to build.
+The visualized story was used extensively, internally, and with external business partners. I later extended the story to other scenarios. It served us very well and gave us all a shared understanding of what we wanted to build.
 
