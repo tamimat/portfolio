@@ -82,6 +82,7 @@ img {
 .img-only {
   margin: 0 -15px;
   background-color: rgba({{ site.text-color }},.05);
+
 }
 .img-only-source {
   margin: 0 -15px;
