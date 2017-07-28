@@ -7,7 +7,7 @@ summary: Building DIVA, a Siri-like assistant for e-commerce with a team of remo
 
 ```
 Challenge:
-A small remote team using the company's speech recognition software and NLU technology to build DIVA, a Siri-like e-commerce system from scratch.
+A small remote team using the company's speech recognition software and NLU technology to build DIVA, a Siri-like e-commerce system, from scratch.
 
 Approach:
 Build, test, learn, build, freak out, learn, persevere, learn,…
@@ -34,13 +34,13 @@ The input I received was, "Think of HAL 9000 or Jarvis and make that for e-comme
 The DIVA project team consisted of 6 members. 
 - 1 × iOS engineer 
 - 2 × backend developers 
-- 1 × speech recognition scientists 
+- 1 × speech recognition scientist
 - 1 × NLU scientist 
 - 1 × QA manager
 - 1 × me 
 
 ## Organizing the team
-To keep the team in sync, we met twice a week in a telephone conference and once per week in person with all the team members on the West Coast. To avoid filling up our email inbox, we chose Slack. The team already was using JIRA. Since it integrated well with other Atlassian software, we choose Confluence for documentation. 
+To keep the team in sync, we met twice a week in a telephone conference and once per week in person with all the team members on the US West Coast. To avoid filling up our email inbox, we chose Slack. The team already was using JIRA. Since it integrated well with other Atlassian software, we choose Confluence for documentation. 
 
 ## Creating the vision
 The first thing was to figure out what we wanted to build. This was done in the first phase of the project and is described in the post: ["Creating a vision & telling a story"]({% post_url 2016-02-01-diva-vision%}).  
@@ -66,7 +66,7 @@ When the tech was in place, we saw how slow our speech recognition was. There we
 ## Highlight what you understand
 For an AI based on voice recognition, two technologies are important:
 
-You say: **I wanna to buy … running shoe**
+You say: **I wanna buy … running shoes**
 
 1. An automatic speech recognition (ASR) service that **transcribes** what was just said. **Text:“I want to buy running shoes”**
 2. A natural language understanding service (NLU) that extracts the  correct intent and **understands** it. **intent: (buy)**, **object: running shoes**
@@ -74,14 +74,14 @@ You say: **I wanna to buy … running shoe**
 Some voice assistants don't display the transcribed text at all, and just extract the relevant word.
 <iframe width="560" height="315" src="https://www.youtube.com/embed/9JvkV5_vfBM?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
 
-Other assistants like Hound, Siri, Google Assistant and Cortana do transcribe the text.
+Other assistants -- like Hound, Siri, Google Assistant and Cortana -- do transcribe the text.
 <iframe width="560" height="315" src="https://www.youtube.com/embed/hoPf1Ry7ihs?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
 
-We felt that showing the text is better than hiding it. Showing the text is a signal to the user, "I'm listening to what you are saying." To emphasize that signal, we wanted to add another form of visualization. Therefore, we colored the object green, showing the user "Yes, we understood what you are exactly searching for."
+We felt that showing the text is better than hiding it. Showing the text is a signal to the user, "I'm listening to what you are saying." To emphasize that signal, we wanted to add another form of visualization. Therefore, we colored the object green, showing the user "Yes, we understood exactly what you are searching for."
 
 ![Color Coding 1]({{ site.baseurl }}/img/diva-coloring-1.png)
 
-Later in the project, we also decided to push the color coding paradigm further, and gave the refinement another color. That way the object and the refinement would be distinguished visually.
+Later in the project, we also decided to push the color-coding paradigm further, and gave the refinement another color. That way the object and the refinement would be distinguished visually.
 
 ![Color Coding 2]({{ site.baseurl }}/img/diva-coloring-2.png)
 <small>Feature is partially integrated in Downloadable App</small>
@@ -99,9 +99,9 @@ This feature was the simplest way to generate corrected data immediately. That a
 ![ASR Correction]({{ site.baseurl }}/img/diva-asr-portal.png)
 
 ## Quality Assurance & Data Collection
-To improve our recognition quality and our NLU, I worked with a remote quality assurance team in on the East Coast. We had several goals:
-- Use DIVA to search and refine products so we can draw conclusions about how people would use voice in e-commerce.
-- Check the quality of the speech recognition, and if the intent was recognized.
+To improve our recognition quality and our NLU, I worked with a remote quality assurance team on the East Coast. We had several goals:
+- Use DIVA to search for products and refine the search, so we can draw conclusions about how people would use voice in e-commerce.
+- Check the quality of the speech recognition, and whether the intent was recognized.
 - Research e-commerce data (such as brands, colors, etc.) for the speech recognition vocabulary.
 Our QA team member would join one telephone conference call to tell the team how we were performing. 
 
@@ -109,13 +109,13 @@ Our QA team member would join one telephone conference call to tell the team how
 
 
 ## Test in the wild
-“I believe that a product benefits the most when all team members participate in usability tests and see what works and what doesn't. Jared Spool, who has decades of experience in the field, states in the article [Fast Path to a Great UX – Increased Exposure Hours](https://articles.uie.com/user_exposure_hours/){:target="_blank"}
+I believe that a product benefits the most when all team members participate in usability tests and see what works and what doesn't. Jared Spool, who has decades of experience in the field, states in his article [Fast Path to a Great UX – Increased Exposure Hours](https://articles.uie.com/user_exposure_hours/){:target="_blank"}
 
 >"Exposure hours. The number of hours each team member is exposed directly to real users interacting with the team’s designs or the team’s competitor’s designs. There is a direct correlation between this exposure and the improvements we see in the designs that team produces."
 
-With a remote team and limited resources, this was hard to implement. To give the team at least a bit of usability testing feedback, I tested DIVA in the wild. Whenever I went to a conference or Meetup in the Silicon Valley, I demoed DIVA and asked people to try it out in front of me. Though most team members didn't have any experience with usability testing, I asked them to do the same. This was not a structured usability test with researchers, but the feedback was very valuable. We learned a lot of things from these small exposure times.
+With a remote team and limited resources, this was hard to implement. To give the team at least a bit of usability testing feedback, I tested DIVA in the wild. Whenever I went to a conference or meetup in the Silicon Valley, I demoed DIVA and asked people to try it out in front of me. Though most team members didn't have any experience with usability testing, I asked them to do the same. This was not a structured usability test with researchers, but the feedback was very valuable. We learned a lot of things from these small exposure times.
 
-- People hold the mic button pressed when they speak. Siri does support that behavior. The Google Assistant doesn't. We didn't until we figured out that we should.
+- People hold the mic button pressed when they speak. Siri does support that behavior. The Google Assistant doesn't. We didn’t realize we should support that behavior also, until we figured out that we should.
 - People didn't always recognize the green dot as a mic button. First, we added a little "Tap to Speak" tip that would be shown if no action was taken. Later, we added an icon to the button. It was especially important when we added image recognition capabilities to DIVA.
 
 ![Start Tip]({{ site.baseurl }}/img/diva-startscreen-icon-tip.png)
@@ -138,7 +138,7 @@ One of our features was the filter bar. The idea is that the attributes for a pr
 
 ![E-commerce Filter]({{ site.baseurl }}/img/diva-ecommerce-filter.png)
 
-We thought that this interaction paradigm wasn't the best solution for a thumb-oriented design. Therefore, we developed the filter bar. It was inspired by the pills that were shown in other chat-based bot applications. We developed it a step further, making it possible to easily access more than just three or four options. 
+We thought that this interaction paradigm wasn't the best solution for a thumb-oriented design. Therefore, we developed the filter bar. It was inspired by the pill-shaped buttons that were shown in other chat-based bot applications. We developed it a step further, making it possible to easily access more than just three or four options. 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/inxlnVbcB6k?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
 
@@ -169,8 +169,8 @@ There is no way of checking out if an interaction works well other than prototyp
 In every project there is the dirty work that needs to be done. Things that are tedious and take time. We had a couple of those tasks. Whenever it was possible, I coordinated with people who outsourced that work. But when it wasn't possible, I did it myself.
 
 - Transcribing: Approving and correcting recorded audio utterances.
-- Correcting computer generated phonemes: For example, if you say "USA," you actually say "YOU ESS AY." If you give the word to a computer to generate the phoneme automatically, it might generate it as a word (USAH), and not as single letters . Those computer-generated phonemes needed to be rechecked to improve the speech recognition.
-- Cleaning Data: When data is scraped for training models it is dirty, especially when the data is user-generated. This means there is data you don't want to have there. Between pictures of laptops, you may find boxes of laptops. The data needs to be cleaned up.
+- Correcting computer-generated phonemes: For example, if you say "USA," you actually say "YOU ESS AY." If you give the word to a computer to generate the phoneme automatically, it might generate it as a word (USAH), and not as single letters. Those computer-generated phonemes needed to be rechecked to improve the speech recognition.
+- Cleaning data: When data is scraped for training models it is dirty, especially when the data is user-generated. This means there is data you don't want to have there. Between pictures of laptops, you may find boxes of laptops. The data needs to be cleaned up.
 
 ## Speechtek 2016
 In May 2016, we went to the Speech Technology Conference "Speechtek". It was a good time to show what we were working on. Here are the slides that I presented.
@@ -182,7 +182,7 @@ In May 2016, we went to the Speech Technology Conference "Speechtek". It was a g
 
 ![AppStore]({{ site.baseurl }}/img/diva-appstore.png)
 
-After eight months, we launched DIVA on the Apple AppStore in an Alpha stage. To give users a real benefit in trying out DIVA, we connected it with the eBay API and later with the Amazon API. Then users could search for a product see it, and then open it in the web browser. The integration was a challenge in itself. Often we had to figure out how we had to structure the API calls to get the data we wanted. In some cases, we were not able to obtain the data in the way we needed it. Nevertheless, we wanted to get our product out in the wild and have people test it and play around with it. The initial idea was to make a purchase possible via voice. That wasn't possible since the eBay API integration for that was too time-consuming. 
+After eight months, we launched DIVA on the Apple AppStore in an Alpha stage. To give users a real benefit in trying out DIVA, we connected it with the eBay API and later with the Amazon API. Then users could search for a product, see it, and then open it in the web browser. The integration was a challenge in itself. Often we had to figure out how we had to structure the API calls to get the data we wanted. In some cases, we were not able to obtain the data in the way we needed it. Nevertheless, we wanted to get our product out in the wild and have people test it and play around with it. The initial idea was to make a purchase possible via voice. That wasn't possible since the eBay API integration for that was too time-consuming. 
 
 ## Custom Apps
 
@@ -200,4 +200,4 @@ Having the application in the wild, we wanted to implement image recognition as 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/gQJjyue3FH0?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
 
 ## Retrospect and Outlook
-DIVA is a bold move for a small company like AppTek. Me as an individual, we as a team, and the company as a whole, are learning a lot. With voice interaction becoming more and more important in the future, AppTek is showing that its technology is able to be part of a voice assistant. For a small company, it is an amazing start in that promising space.
+DIVA is a bold move for a small company like AppTek. Myself as an individual, we as a team, and the company as a whole, are learning a lot. With voice interaction becoming more and more important in the future, AppTek is showing that its technology is able to be part of a voice assistant. For a small company, it is an amazing start in that promising space.
