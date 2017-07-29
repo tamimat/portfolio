@@ -1,7 +1,7 @@
 ---
 author:
  name: Interaction Design
-title: Learning bit by bit
+title: Learning Bit by Bit
 summary: Teaching the user different voice interaction commands with little non-interrupting visual-nuggets.
 ---
 
@@ -21,7 +21,7 @@ When we showed DIVA to others, we always needed to show the features that DIVA w
 
 ![Under $100]({{ site.baseurl }}/img/diva-under100.png)
 
-In visual interfaces, features that are important can be consistently shown. The user sees the feature. There is an external signal that reminds him of it. For example, if you search in a commerce website, you can see the filters, or when you type the keywords, suggestions will be shown, with autocomplete for each new letter that you type. 
+In visual interfaces, features that are important can be consistently shown. The user sees the feature. There is an external signal that reminds him of it. For example, if you search in a e-commerce website, you can see the filters, or when you type the keywords, suggestions will be shown, with autocomplete for each new letter that you type. 
 Features of voice interfaces lack that ability. The question is how can the user be shown what capabilities the NLU has without making tours that everybody dismisses and nobody watches.
 
 ## Workshop
@@ -32,7 +32,7 @@ First, I collected screenshots from all the other assistants and printed them ou
 
 ![Voice Assistants]({{ site.baseurl }}/img/diva-assistants.jpg)<small>Cortana, Hound, Siri, Google, Ozlo, Alexa</small>
 
-We went through all the different solutions and discussed the pros and cons of each. We figured out the interaction patterns that were used in all solutions and decided together what could work for our case, or if we could come up with a better approach. We preferred when the information was little and not in list form. 
+We went through all the different solutions and discussed the pros and cons of each. We figured out the interaction patterns that were used in all solutions and decided together what could work for our case, or if we could come up with a better approach. We preferred when the information was minimal and not in a list form. 
 
 
 ![Cortana hints]({{ site.baseurl }}/img/diva-cortana-tips.png)<small>Cortana uses small hints here and there</small>
@@ -45,7 +45,7 @@ We felt that giving the user the information in small chunks of teaching would b
 
 ![Visuals]({{ site.baseurl }}/img/diva-start-product.png)
 
-On our start screen we already had one example with a picture. We thought of having different visual examples that show different voice commands.And our product list we could place small little examples on the bottom of the page.
+On our start screen we already had one example with a picture. We thought of having different visual examples that show different voice commands. And on our product list we could place small little examples on the bottom of the page.
 
 ## Design & Prototype
 I went straight to Sketch with the ideas and came up with different solutions. There was a back and forth between me and the engineer in Slack. The start screen looked like this:
@@ -60,7 +60,7 @@ The other opportunity to teach the user was the product list screen. The first a
 
 ![Product v1]({{ site.baseurl }}/img/diva-product-v1.png)
 
-To give the text nuggets more space, I placed the microphone button on the right side. But looking at it together it didn't feel right. So, I worked on making the text shorter and placing the microphone button in the middle.
+To give the text-nuggets more space, I placed the microphone button on the right side. But looking at it together it didn't feel right. So, I worked on making the text shorter and placing the microphone button in the middle.
 
 ![Product v2]({{ site.baseurl }}/img/diva-product-v2.png)
 

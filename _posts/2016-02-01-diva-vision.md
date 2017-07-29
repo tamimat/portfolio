@@ -1,7 +1,7 @@
 ---
 author:
  name: Storytelling
-title: Creating a vision & telling a story
+title: Creating a Vision & Telling a Story
 summary: This is how story telling was used to unite the team on one vision and goal.
 ---
 
@@ -17,7 +17,7 @@ The storyteller and visualizer.
 ```
 
 ## Situation
-We were at the very beginning of the [project DIVA]({% post_url 2017-07-01-diva-project%}) (digital intelligent voice assistant). The task was to build a voice assistant for e commerce. My entire career has taught me, again and again, "communication is key." I knew I had to find a way to create a vision and communicate it to the team so everybody understood our goal. It needed to be simple, so that even non-technical people would grasp it.
+We were at the very beginning of the [project DIVA]({% post_url 2017-07-01-diva-project%}) (digital intelligent voice assistant). The task was to build a voice assistant for e-commerce. My entire career has taught me, again and again, "communication is key." I knew I had to find a way to create a vision and communicate it to the team so everybody understood our goal. It needed to be simple, so that even non-technical people would grasp it.
 
 ### Research
 To understand the possibilities of intelligent assistants and voice recognition, I read many articles and downloaded every possible application to see how far things had been pushed. I completed several product purchases with these apps, and documented the process. 
@@ -34,7 +34,7 @@ With Alexa in my home and Siri on my phone, I tried as many interactions as poss
 
 ![Alexa]({{ site.baseurl }}/img/diva-alexa.jpg)
 
-Part of the research was to introduce my three-year-old daughter to voice assistants. Seeing how quickly she was able to search for specific videos without being able to write was amazing. This is when I truly grasped how important voice will be for the future of human computer interaction. 
+Part of the research was to introduce my three-year-old daughter to voice assistants. Seeing how quickly she was able to search for specific videos without being able to write was amazing. This is when I truly grasped how important voice will be for the future of human-computer-interaction. 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/WVAOKZCB104?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
 
@@ -45,11 +45,11 @@ While doing the research, I already was working on the vision. Since the team wa
 
 To communicate the vision, I came up with the idea of using an analogy of a salesman standing behind the glass, where the glass symbolizes the device’s screen. Here's the email that I wrote to the team:
 
-<p style="border:1px; border-style:dashed; border-color:gray; padding: 1em;">"There is a very good salesman. You know, those guys who can sell you exactly what you need. As if they could read your mind. We all have dealt with those guys. The problem with this salesman is he is standing behind a wall made out of very thick and durable frosted glass. He can’t see who is on the other side, but he can write on it and people can read his messages. So, he writes, "I sell things.” The only thing he is able to do is make a tiny slot in the glass. So, people write their orders, such as “nice jeans” or “hiking boots” on pieces of paper and slide them through the slot. The people can’t see or hear the salesman, though. They only can see the pictures that show up on the glass wall, along with some descriptions he writes. They tap on the things they want. The salesman can see their taps. Then he holds a sign next to the picture: “I want to buy this” So, people tap on that and write down their address. He takes it and let the postman delivers the order to the customer. It is a very complicated way of selling and buying stuff, but it works.<br>
+<p style="border:1px; border-style:dashed; border-color:gray; padding: 1em;">"There is a very good salesman. You know, those guys who can sell you exactly what you need. As if they could read your mind. We all have dealt with those guys. The problem with this salesman is he is standing behind a wall made out of very thick and durable frosted glass. He can’t see who is on the other side, but he can write on it and people can read his messages. So, he writes, "I sell things.” The only thing he is able to do is make a tiny slot in the glass. So, people write their orders, such as “nice jeans” or “hiking boots” on pieces of paper and slide them through the slot. The people can’t see or hear the salesman, though. They only can see the pictures that show up on the glass wall, along with some descriptions he writes. They tap on the things they want. The salesman can see their taps. Then he holds a sign next to the picture: “I want to buy this” So, people tap on that and write down their address. He takes it and let the postman deliver the order to the customer. It is a very complicated way of selling and buying stuff, but it works.<br>
 <br>
 So then there comes a glass maker. He sees that and thinks: I can help the salesman by inventing better glass. So, he invents new glass and calls it DIVA.<br>
 <br>
-DIVAs features are:<br>
+DIVA's features are:<br>
 - The glass has a hole, so people can submit their orders via voice.<br>
 - The glass is semitransparent, so the salesman can see his customers.<br>
 <br>
