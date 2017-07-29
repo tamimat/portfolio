@@ -17,7 +17,7 @@ Researcher, Workshop Organizer, Product Designer
 ```
 
 ## The Problem
-When we showed DIVA to others, we always needed to show the features that DIVA was capable of doing, such as "Search for price range” or ”Search for attributes". The users said, "Ah, you can do that".
+When we showed [DIVA]({{ site.baseurl }}{% post_url 2017-07-01-diva-project%}) to others, we always needed to show the features that DIVA was capable of doing, such as "Search for price range” or ”Search for attributes". The users said, "Ah, you can do that".
 
 ![Under $100]({{ site.baseurl }}/img/diva-under100.png)
 

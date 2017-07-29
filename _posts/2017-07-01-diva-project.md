@@ -130,7 +130,7 @@ Here you can see that we included numbers on the product list view. Now, would y
 Later, we took that functionality out for the DIVA iOS client because people had DIVA in their hands, and the hands-free situation didn't occur too often.  
 
 ## Thumb Orientation leads to Certain Design Decisions
-The DIVA client is an app on a handheld device. If you are a designer, you might have seen this graphical representation from Luke W article [Designing for Large Screen Smartphones](https://www.lukew.com/ff/entry.asp?1927){:target="_blank"}, which shows that we interact mainly with our thumbs. The better an app is designed toward the thumbs, the better the usability is.
+The DIVA client is an app on a handheld device. If you are a designer, you might have seen this graphical representation from Luke W article ["Designing for Large Screen Smartphones"](https://www.lukew.com/ff/entry.asp?1927){:target="_blank"}, which shows that we interact mainly with our thumbs. The better an app is designed toward the thumbs, the better the usability is.
 
 ![Design for thumb]({{ site.baseurl }}/img/diva-lukew-thumb.png)
 
