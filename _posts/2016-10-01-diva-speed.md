@@ -1,7 +1,7 @@
 ---
 author:
  name: Design & Management
-title: “Team, we're faster than Siri!”
+title: “Team, We Are Faster than Siri!”
 summary: Speed is crucial for voice interfaces. This is how we improved our speed by 350%.
 ---
 
@@ -17,7 +17,7 @@ Product Designer and Product Manager
 ```
 
 ## Situation
-When AppTek speech recognition technology debuted, it recorded the audio data, sent it to the servers, and then sent it back to the device as text. The ability to send text back while still recording / speaking was one of relatively new features that made a voice assistant possible in the first place. The crux was that it took 2.7 seconds or more until the uttered word was displayed on the device, which made the interface feel sluggish. 
+When AppTek speech recognition technology debuted, it recorded the audio data, sent it to the servers, and then sent it back to the device as text. The ability to send text back while still recording / speaking was one of the relatively new features that made a voice assistant possible in the first place. The crux was that it took 2.7 seconds or more until the uttered word was displayed on the device, which made the interface feel sluggish. 
 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/wkhvE5JUb60?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
@@ -25,11 +25,11 @@ When AppTek speech recognition technology debuted, it recorded the audio data, s
 Especially when it was compared to other voice recognition systems. Back then the team was not aware that this might be too slow for the user. It "worked" and there were other problems the team needed to solve.
 
 ## Approach
-First, we had to understand as a team that this was a real issue. As Jakob Nielsen writes in his article [Response Times](https://www.nngroup.com/articles/response-times-3-important-limits/){:target="_blank"} in human-computer interaction, three time limits are crucial, and every interaction designer should know them: 0.1 second, 1.0 second and 10 seconds.
+First, we had to understand as a team that this was a real issue. As Jakob Nielsen writes in his article [Response Times](https://www.nngroup.com/articles/response-times-3-important-limits/){:target="_blank"} about human-computer interaction, three time limits are crucial, and every interaction designer should know them: 0.1 second, 1.0 second and 10 seconds.
 
 - **0.1 second** is about the limit for having the user feel that the **system is reacting instantaneously**.
 
-- **1.0 second** is about the limit for the **user's flow of thought to stay uninterrupted**, even though the user will notice the delay."
+- **1.0 second** is about the limit for the **user's flow of thought to stay uninterrupted**, even though the user will notice the delay.
 
 - **10 seconds** is about the limit for keeping the user's attention focused on the dialogue. 
 
@@ -51,9 +51,9 @@ Every time I did the test I shared the results in our weekly meetings and asked 
 The engineers also would come up with ideas for simple visual indicators that the system was working or for debugging techniques so the user could see on the screen when something was stuck. 
 
 ## 350% Faster 
-Nine months later we broke the 1.0 second barrier. It took DIVA only 0.6 seconds until an uttered word was displayed on the device. That was 350% faster than when we started. We were even faster than Apple Siri, and nearly as fast as Google speech recognition. This was a big achievement for the team.
+Nine months later we broke the 1.0 second barrier. It took DIVA only 0.6 seconds until an uttered word was displayed on the device. That was 350% faster than when we started (2.7 seconds). We were even faster than Apple Siri, and nearly as fast as Google speech recognition. This was a big achievement for the team.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Z8zWNs3hvTw?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
 
 ## Retrospect
-Design is not how it looks, but how it works. And only close teamwork between engineering and design can make the dreamwork.
+Design is not how it looks, but how it works. And only close teamwork between engineering and design can make the drea mwork.

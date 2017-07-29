@@ -1,7 +1,7 @@
 ---
 author:
  name: UX Design
-title: Being a midwife for an interface pattern library
+title: Being a Midwife for an Interface Pattern Library
 summary: How to design an interface pattern library for a B2B software environment of a retail company.
 ---
 ```

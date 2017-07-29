@@ -1,7 +1,7 @@
 ---
 author:
  name: Design & Management
-title: The e-commerce voice assistant DIVA
+title: The E-commerce Voice Assistant DIVA
 summary: Building DIVA, a Siri-like assistant for e-commerce with a team of remote engineers and computer scientists.
 ---
 
@@ -43,7 +43,10 @@ The DIVA project team consisted of 6 members.
 To keep the team in sync, we met twice a week in a telephone conference and once per week in person with all the team members on the US West Coast. To avoid filling up our email inbox, we chose Slack. The team already was using JIRA. Since it integrated well with other Atlassian software, we choose Confluence for documentation. 
 
 ## Creating the Vision
-The first thing was to figure out what we wanted to build. This was done in the first phase of the project and is described in the post: ["Creating a vision & telling a story"]({% post_url 2016-02-01-diva-vision%}).  
+The first thing was to figure out what we wanted to build. This was done in the first phase of the project and is described in the post: ["Creating a vision & telling a story"]({% post_url 2016-02-01-diva-vision%}).
+
+["Creating a vision & telling a story"]({{ site.baseurl }}{% post_url 2016-02-01-diva-vision%})
+
 
 ## Keep Developers Closest
 There is a saying made popular in the Godfather movies: **Keep your friends close, and your enemies closer!** and I would add: **and your developer closest.**
