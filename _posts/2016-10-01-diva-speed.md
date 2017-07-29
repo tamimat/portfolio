@@ -17,8 +17,7 @@ Product Designer and Product Manager
 ```
 
 ## Situation
-When AppTek speech recognition technology debuted, it recorded the audio data, sent it to the servers, and then sent it back to the device as text. The ability to send text back while still recording / speaking was one of the relatively new features that made a voice assistant possible in the first place. The crux was that it took 2.7 seconds or more until the uttered word was displayed on the device, which made the interface feel sluggish. 
-
+When AppTek speech recognition technology debuted, it recorded the audio data, sent it to the servers, and then sent it back to the device as text. The ability to send text back while still recording / speaking was one of the relatively new features that made a voice assistant like [DIVA]({{ site.baseurl }}{% post_url 2017-07-01-diva-project%}) possible in the first place. The crux was that it took 2.7 seconds or more until the uttered word was displayed on the device, which made the interface feel sluggish. 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/wkhvE5JUb60?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
 

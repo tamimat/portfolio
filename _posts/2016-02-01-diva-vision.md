@@ -17,7 +17,7 @@ The storyteller and visualizer.
 ```
 
 ## Situation
-We were at the very beginning of the [project DIVA]({% post_url 2017-07-01-diva-project%}) (digital intelligent voice assistant). The task was to build a voice assistant for e-commerce. My entire career has taught me, again and again, "communication is key." I knew I had to find a way to create a vision and communicate it to the team so everybody understood our goal. It needed to be simple, so that even non-technical people would grasp it.
+We were at the very beginning of the [project DIVA]({{ site.baseurl }}{% post_url 2017-07-01-diva-project%}) (digital intelligent voice assistant). The task was to build a voice assistant for e-commerce. My entire career has taught me, again and again, "communication is key." I knew I had to find a way to create a vision and communicate it to the team so everybody understood our goal. It needed to be simple, so that even non-technical people would grasp it.
 
 ### Research
 To understand the possibilities of intelligent assistants and voice recognition, I read many articles and downloaded every possible application to see how far things had been pushed. I completed several product purchases with these apps, and documented the process. 
