@@ -1,7 +1,7 @@
 ---
 author:
  name: Design & Management
-title: The E-commerce Voice Assistant DIVA
+title: DIVA the E-Commerce Voice Assistant
 summary: Building DIVA, a Siri-like assistant for e-commerce with a team of remote engineers and computer scientists.
 ---
 
@@ -43,10 +43,7 @@ The DIVA project team consisted of 6 members.
 To keep the team in sync, we met twice a week in a telephone conference and once per week in person with all the team members on the US West Coast. To avoid filling up our email inbox, we chose Slack. The team already was using JIRA. Since it integrated well with other Atlassian software, we choose Confluence for documentation. 
 
 ## Creating the Vision
-The first thing was to figure out what we wanted to build. This was done in the first phase of the project and is described in the post: ["Creating a vision & telling a story"]({% post_url 2016-02-01-diva-vision%}).
-
-["Creating a vision & telling a story"]({{ site.baseurl }}{% post_url 2016-02-01-diva-vision%})
-
+The first thing was to figure out what we wanted to build. This was done in the first phase of the project and is described in the post: ["Creating a vision & telling a story"]({{ site.baseurl }}{% post_url 2016-02-01-diva-vision%}).
 
 ## Keep Developers Closest
 There is a saying made popular in the Godfather movies: **Keep your friends close, and your enemies closer!** and I would add: **and your developer closest.**
@@ -56,7 +53,7 @@ Computer engineering is a profession that automates things and renders away redu
 
 ![First Designs]({{ site.baseurl }}/img/diva-first-designs.png)
 
-The first [click prototype](https://marvelapp.com/4383a86){:target="_blank"} was designed for the [user story]({% post_url 2016-02-01-diva-vision%}). By building that interactive prototype, we had a couple of screens, colors and a design direction that we had checked out. The next step was to make the prototype real. As quickly as possible. To make a prototype app with a working speech recognition and language understanding, the team had to gather training data from the internet to create the needed models for interpreting the search queries and to improve the speech recognition quality. We decided that at the beginning we would not connect to an e-commerce API, but build our own product database connected to a Lucene search. That way we could act more quickly and were not dependent on other infrastructures. Meanwhile, the iOS engineer and I teamed up to bring the design prototype to life. I quickly saw how some of the designs could be improved and simplified for the client design. After three weeks, we had the first working prototype in place that searched on our product database.
+The first [click prototype](https://marvelapp.com/4383a86){:target="_blank"} was designed for the [user story]({{ site.baseurl }}{% post_url 2016-02-01-diva-vision%}). By building that interactive prototype, we had a couple of screens, colors and a design direction that we had checked out. The next step was to make the prototype real. As quickly as possible. To make a prototype app with a working speech recognition and language understanding, the team had to gather training data from the internet to create the needed models for interpreting the search queries and to improve the speech recognition quality. We decided that at the beginning we would not connect to an e-commerce API, but build our own product database connected to a Lucene search. That way we could act more quickly and were not dependent on other infrastructures. Meanwhile, the iOS engineer and I teamed up to bring the design prototype to life. I quickly saw how some of the designs could be improved and simplified for the client design. After three weeks, we had the first working prototype in place that searched on our product database.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/wkhvE5JUb60?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
 
@@ -64,7 +61,7 @@ What you can see in this video is that the speech recognition isn't very accurat
 
 ## Speed
 When the tech was in place, we saw how slow our speech recognition was. There were several reasons for that. If you want to read how we tackled that problem, read the case study 
-[“Team, we're faster than Siri!”]({% post_url 2016-10-01-diva-speed%})
+[“Team, we're faster than Siri!”]({{ site.baseurl }}{% post_url 2016-10-01-diva-speed%})
 
 ## Highlight what you Understand
 For an AI based on voice recognition, two technologies are important:
