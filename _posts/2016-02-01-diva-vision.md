@@ -65,9 +65,8 @@ The vision statement was the North Star. The story was our binoculars to see the
 So, I started and designed the very first version of DIVA. I shared the first designs very quickly with the iOS engineer. It is always helpful to get feedback from peers, four eyes see more than two. For the first designs, I used Marvel to make them interactive and easily sharable.
 
 <p align="center">
-<iframe src="https://marvelapp.com/4383a86?emb=1" width="452" height="901" allowTransparency="true" frameborder="0"></iframe>
+<iframe src="https://marvelapp.com/6647g90?emb=1" width="300" height="500" allowTransparency="true" frameborder="0"></iframe>
 </p>
-
 
 ## Our User Story
 But the prototype was not enough, and didn’t tell the whole story. To show the benefits of such an interface, I used personas and embedded the interface in a real life situation. That way I also could show potential AI capabilities and discuss with the team what is possible for us. I extracted the features and highlighted what the AI would need to accomplish to deliver that experience.
