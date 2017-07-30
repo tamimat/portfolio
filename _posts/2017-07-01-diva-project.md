@@ -43,33 +43,36 @@ The DIVA project team consisted of 6 members.
 To keep the team in sync, we met twice a week in a telephone conference and once per week in person with all the team members on the US West Coast. To avoid filling up our email inbox, we chose Slack. The team already was using JIRA. Since it integrated well with other Atlassian software, we choose Confluence for documentation. 
 
 ## Creating the Vision
-The first thing was to figure out what we wanted to build. This was done in the first phase of the project and is described in the post: ["Creating a vision & telling a story"]({{ site.baseurl }}{% post_url 2016-02-01-diva-vision%}).
+The first thing was to figure out what we wanted to build. This was done in the first phase of the project and is described in the post: ["Creating a Vision & Telling a Story"]({{ site.baseurl }}{% post_url 2016-02-01-diva-vision%}).
 
 ## Keep Developers Closest
-There is a saying made popular in the Godfather movies: **Keep your friends close, and your enemies closer!** and I would add: **and your developer closest.**
-Computer engineering is a profession that automates things and renders away redundancy. Designers generally can generate their designs quickly, and are therefore more open to changing things once they see they don't work. Those changes for the developer often mean "redo the work you already did," which can be annoying. Though it's good to embrace a culture of change, that culture shouldn't be stretched. To avoid that as much as possible, my goal is always to integrate the developer early in the process and to prepare the work toward him/her. I also like to have direct access to the code via a repository setup. This way I can do small incremental changes to text, animations or colors myself without bothering the developer. That also shows empathy from the designer toward the coder, and can generate a better bond between the two.
+There is a saying made popular in the Godfather movies: **“Keep your friends close, and your enemies closer!”** and I would add: **“and your developer closest.”**
+Computer engineering is a profession that automates things and renders away redundancy. Designers generally can generate their designs quickly, and are therefore more open to changing things once they see they don't work. Those changes for the developer often mean “redo the work you already did,” which can be annoying. Though it's good to embrace a culture of change, that culture shouldn't be stretched. To avoid that as much as possible, my goal is always to integrate the developer early in the process and to prepare the work toward him/her. I also like to have direct access to the code via a repository setup. This way I can do small incremental changes to text, animations or colors myself without bothering the developer. That also shows empathy from the designer toward the coder, and can generate a better bond between the two.
 
 ## First Working Prototype
 
 ![First Designs]({{ site.baseurl }}/img/diva-first-designs.png)
 
-The first [click prototype](https://marvelapp.com/4383a86){:target="_blank"} was designed for the [user story]({{ site.baseurl }}{% post_url 2016-02-01-diva-vision%}). By building that interactive prototype, we had a couple of screens, colors and a design direction that we had checked out. The next step was to make the prototype real. As quickly as possible. To make a prototype app with a working speech recognition and language understanding, the team had to gather training data from the internet to create the needed models for interpreting the search queries and to improve the speech recognition quality. We decided that at the beginning we would not connect to an e-commerce API, but build our own product database connected to a Lucene search. That way we could act more quickly and were not dependent on other infrastructures. Meanwhile, the iOS engineer and I teamed up to bring the design prototype to life. I quickly saw how some of the designs could be improved and simplified for the client design. After three weeks, we had the first working prototype in place that searched on our product database.
+The first [click prototype](https://marvelapp.com/4383a86){:target="_blank"} was designed for the [user story]({{ site.baseurl }}{% post_url 2016-02-01-diva-vision%}). By building that interactive prototype, we had a couple of screens, colors and a design direction that we had checked out. The next step was to make the prototype real. As quickly as possible. To make a prototype app with a working speech recognition and language understanding, the team had to gather training data from the internet to create the needed models for interpreting the search queries and to improve the speech recognition quality. We decided that at the beginning we wouldn't connect to an e-commerce API, but build our own product database connected to a Lucene search. That way we could act more quickly and were not dependent on other infrastructures. Meanwhile, the iOS engineer and I teamed up to bring the design prototype to life. After three weeks, we had the first working prototype in place that searched on our product database.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/wkhvE5JUb60?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
 
 What you can see in this video is that the speech recognition isn't very accurate. The reason for that is the improvements to the speech recognition weren't in place yet.
 
 ## Speed
-When the tech was in place, we saw how slow our speech recognition was. There were several reasons for that. If you want to read how we tackled that problem, read the case study 
-[“Team, we're faster than Siri!”]({{ site.baseurl }}{% post_url 2016-10-01-diva-speed%})
+When the tech was in place, we saw how slow our speech recognition was. There were several reasons for that. If you want to read how we tackled that problem, read: 
+[“Team, We Are Faster than Siri!”]({{ site.baseurl }}{% post_url 2016-10-01-diva-speed%})
 
 ## Highlight what you Understand
 For an AI based on voice recognition, two technologies are important:
 
-You say: **I wanna buy … running shoes**
+If you say: **I wanna buy … running shoes**
 
-1. An automatic speech recognition (ASR) service that **transcribes** what was just said. **Text:“I want to buy running shoes”**
-2. A natural language understanding service (NLU) that extracts the  correct intent and **understands** it. **intent: (buy)**, **object: running shoes**
+1. An automatic speech recognition (ASR) service that **transcribes** what was just said.
+- **Text:** I want to buy running shoes
+2. A natural language understanding service (NLU) that extracts the  correct intent and **understands** it. 
+- **intent:** buy
+- **object:** running shoes
 
 Some voice assistants don't display the transcribed text at all, and just extract the relevant word.
 <iframe width="560" height="315" src="https://www.youtube.com/embed/9JvkV5_vfBM?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
@@ -77,7 +80,7 @@ Some voice assistants don't display the transcribed text at all, and just extrac
 Other assistants -- like Hound, Siri, Google Assistant and Cortana -- do transcribe the text.
 <iframe width="560" height="315" src="https://www.youtube.com/embed/hoPf1Ry7ihs?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
 
-We felt that showing the text is better than hiding it. Showing the text is a signal to the user, "I'm listening to what you are saying." To emphasize that signal, we wanted to add another form of visualization. Therefore, we colored the object green, showing the user "Yes, we understood exactly what you are searching for."
+We felt that showing the text is better than hiding it. Showing the text is a signal to the user, "I'm listening to what you are saying." To emphasize that signal, we wanted to add another form of visualization. Therefore, we colored the intent and the object green, showing the user "Yes, we understood exactly what you want to do and what you are searching for."
 
 ![Color Coding 1]({{ site.baseurl }}/img/diva-coloring-1.png)
 
@@ -99,7 +102,7 @@ This feature was the simplest way to generate corrected data immediately. That a
 ![ASR Correction]({{ site.baseurl }}/img/diva-asr-portal.png)
 
 ## Quality Assurance & Data Collection
-To improve our recognition quality and our NLU, I worked with a remote quality assurance team on the East Coast. We had several goals:
+To improve our recognition quality and our NLU, I worked with a remote quality assurance team on the US East Coast. We had several goals:
 - Use DIVA to search for products and refine the search, so we can draw conclusions about how people would use voice in e-commerce.
 - Check the quality of the speech recognition, and whether the intent was recognized.
 - Research e-commerce data (such as brands, colors, etc.) for the speech recognition vocabulary.
@@ -130,7 +133,7 @@ Here you can see that we included numbers on the product list view. Now, would y
 Later, we took that functionality out for the DIVA iOS client because people had DIVA in their hands, and the hands-free situation didn't occur too often.  
 
 ## Thumb Orientation leads to Certain Design Decisions
-The DIVA client is an app on a handheld device. If you are a designer, you might have seen this graphical representation from Luke W article ["Designing for Large Screen Smartphones"](https://www.lukew.com/ff/entry.asp?1927){:target="_blank"}, which shows that we interact mainly with our thumbs. The better an app is designed toward the thumbs, the better the usability is.
+The DIVA client is an app on a handheld device. If you are a designer, you might have seen this graphical representation from Luke W's article ["Designing for Large Screen Smartphones"](https://www.lukew.com/ff/entry.asp?1927){:target="_blank"}, which shows that we interact mainly with our thumbs. The better an app is designed toward the thumbs, the better the usability is.
 
 ![Design for thumb]({{ site.baseurl }}/img/diva-lukew-thumb.png)
 
@@ -168,9 +171,9 @@ There is no way of checking out if an interaction works well other than prototyp
 ## The Dirty Work
 In every project there is the dirty work that needs to be done. Things that are tedious and take time. We had a couple of those tasks. Whenever it was possible, I coordinated with people who outsourced that work. But when it wasn't possible, I did it myself.
 
-- Transcribing: Approving and correcting recorded audio utterances.
-- Correcting computer-generated phonemes: For example, if you say "USA," you actually say "YOU ESS AY." If you give the word to a computer to generate the phoneme automatically, it might generate it as a word (USAH), and not as single letters. Those computer-generated phonemes needed to be rechecked to improve the speech recognition.
-- Cleaning data: When data is scraped for training models it is dirty, especially when the data is user-generated. This means there is data you don't want to have there. Between pictures of laptops, you may find boxes of laptops. The data needs to be cleaned up.
+- **Transcribing:** Approving and correcting recorded audio utterances.
+- **Correcting computer-generated phonemes:** For example, if you say "USA," you actually say "YOU ESS AY." If you give the word to a computer to generate the phoneme automatically, it might generate it as a word (USAH), and not as single letters. Those computer-generated phonemes needed to be rechecked to improve the speech recognition.
+- **Cleaning data:** When data is scraped for training models it is dirty, especially when the data is user-generated. This means there is data you don't want to have there. Between pictures of laptops, you may find boxes of laptops. The data needs to be cleaned up.
 
 ## Speechtek 2016
 In May 2016, we went to the Speech Technology Conference "Speechtek". It was a good time to show what we were working on. Here are the slides that I presented.
@@ -182,7 +185,7 @@ In May 2016, we went to the Speech Technology Conference "Speechtek". It was a g
 
 ![AppStore]({{ site.baseurl }}/img/diva-appstore.png)
 
-After eight months, we launched DIVA on the Apple AppStore in an Alpha stage. To give users a real benefit in trying out DIVA, we connected it with the eBay API and later with the Amazon API. Then users could search for a product, see it, and then open it in the web browser. The integration was a challenge in itself. Often we had to figure out how we had to structure the API calls to get the data we wanted. In some cases, we were not able to obtain the data in the way we needed it. Nevertheless, we wanted to get our product out in the wild and have people test it and play around with it. The initial idea was to make a purchase possible via voice. That wasn't possible since the eBay API integration for that was too time-consuming. 
+After eight months, we launched DIVA on the [Apple AppStore](https://itunes.apple.com/us/app/diva-apptek-voice-shopping-assistant/id1078916997?mt=8) in an Alpha stage. To give users a real benefit in trying out DIVA, we connected it with the eBay API and later with the Amazon API. Then users could search for a product, see it, and then open it in the web browser. The integration was a challenge in itself. Often we had to figure out how we had to structure the API calls to get the data we wanted. In some cases, we were not able to obtain the data in the way we needed it. Nevertheless, we wanted to get our product out in the wild and have people test it and play around with it. The initial idea was to make a purchase possible via voice. That wasn't possible since the eBay API integration for that was too time-consuming. 
 
 ## Custom Apps
 
