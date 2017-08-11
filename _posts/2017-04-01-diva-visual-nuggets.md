@@ -39,7 +39,7 @@ We went through all the different solutions and discussed the pros and cons of e
 
 Another thing we liked was when a skill was visualized as an icon.
 
-![Visuals]({{ site.baseurl }}/img/diva-tips-visualisation.png)
+![Visuals]({{ site.baseurl }}/img/diva-tips-visualisation.png)<small>Icons visualize skill instead of just text</small>
 
 We felt that giving the user the information in small chunks of teaching would be the best approach. We had two opportunities to do that, the start screen and the product list view screen. We sketched on the printed-out screens how and where the visual-nuggets could be placed and what we would want to teach the user. 
 
