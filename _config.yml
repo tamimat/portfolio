@@ -20,6 +20,8 @@ author:
   # want it.
   info:
 
+# The URL of the homepage of your site (without trailing slash). Leave this
+# empty when you run Jekyll locally.
 url: http://tamimat.github.io
 baseurl: "/portfolio"
 
@@ -38,7 +40,6 @@ show-subtitle: true
 display-social-icons: false
 
 footer-text:
-
 
 # Preferably 64px in height. Leave empty = disable.
 logo-image: # /img/logo.png

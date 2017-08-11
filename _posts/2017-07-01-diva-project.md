@@ -1,8 +1,8 @@
 ---
 author:
- name: Design & Management
-title: DIVA the E-Commerce Voice Assistant
-summary: Building DIVA, a Siri-like assistant for e-commerce with a team of remote engineers and computer scientists.
+ name: DIVA • Design & Management
+title: The E-Commerce Voice Assistant
+summary: (1/4) Building DIVA, a Siri-like assistant for e-commerce with a team of remote engineers and computer scientists.
 ---
 
 ```
@@ -14,6 +14,8 @@ Build, test, learn, build, freak out, learn, persevere, learn,…
 
 Contribution:
 Product Designer & Product Manager: Trying to keep a balance between my inner drive for perfection as a designer and my pragmatism as a product manager.
+
+Year: 2016 - Present
 ```
 
 ![AppTek Commerce]({{ site.baseurl }}/img/diva-apptek-commerce.png)
@@ -43,7 +45,7 @@ The DIVA project team consisted of 6 members.
 To keep the team in sync, we met twice a week in a telephone conference and once per week in person with all the team members on the US West Coast. To avoid filling up our email inbox, we chose Slack. The team already was using JIRA. Since it integrated well with other Atlassian software, we choose Confluence for documentation. 
 
 ## Creating the Vision
-The first thing was to figure out what we wanted to build. This was done in the first phase of the project and is described in the post: ["Creating a Vision & Telling a Story"]({{ site.baseurl }}{% post_url 2016-02-01-diva-vision%}).
+The first thing was to figure out what we wanted to build. This was done in the first phase of the project and is described in the post: ["Creating a Vision & Telling a Story"]({{ site.baseurl }}{% post_url 2017-05-01-diva-vision%}).
 
 ## Keep Developers Closest
 There is a saying made popular in the Godfather movies: **“Keep your friends close, and your enemies closer!”** and I would add: **“and your developer closest.”**
@@ -53,7 +55,7 @@ Computer engineering is a profession that automates things and renders away redu
 
 ![First Designs]({{ site.baseurl }}/img/diva-first-designs.png)
 
-The first [click prototype](https://marvelapp.com/4383a86){:target="_blank"} was designed for the [user story]({{ site.baseurl }}{% post_url 2016-02-01-diva-vision%}). By building that interactive prototype, we had a couple of screens, colors and a design direction that we had checked out. The next step was to make the prototype real. As quickly as possible. To make a prototype app with a working speech recognition and language understanding, the team had to gather training data from the internet to create the needed models for interpreting the search queries and to improve the speech recognition quality. We decided that at the beginning we wouldn't connect to an e-commerce API, but build our own product database connected to a Lucene search. That way we could act more quickly and were not dependent on other infrastructures. Meanwhile, the iOS engineer and I teamed up to bring the design prototype to life. After three weeks, we had the first working prototype in place that searched on our product database.
+The first [click prototype](https://marvelapp.com/4383a86){:target="_blank"} was designed for the [user story]({{ site.baseurl }}{% post_url 2017-05-01-diva-vision%}). By building that interactive prototype, we had a couple of screens, colors and a design direction that we had checked out. The next step was to make the prototype real. As quickly as possible. To make a prototype app with a working speech recognition and language understanding, the team had to gather training data from the internet to create the needed models for interpreting the search queries and to improve the speech recognition quality. We decided that at the beginning we wouldn't connect to an e-commerce API, but build our own product database connected to a Lucene search. That way we could act more quickly and were not dependent on other infrastructures. Meanwhile, the iOS engineer and I teamed up to bring the design prototype to life. After three weeks, we had the first working prototype in place that searched on our product database.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/wkhvE5JUb60?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
 

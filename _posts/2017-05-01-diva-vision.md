@@ -1,8 +1,8 @@
 ---
 author:
- name: Storytelling
+ name: DIVA • Storytelling
 title: Creating a Vision & Telling a Story
-summary: This is how story telling was used to unite the team on one vision and goal.
+summary: (2/4) This is how story telling was used to unite the team on one vision and goal.
 ---
 
 ```
@@ -14,6 +14,8 @@ Tell them a story that allows them to visualize the process.
 
 Contribution:
 The storyteller and visualizer.
+
+Year: 2016
 ```
 
 ## Situation
@@ -68,7 +70,7 @@ So, I started and designed the very first version of DIVA. I shared the first de
 <iframe src="https://marvelapp.com/6647g90?emb=1" width="300" height="500" allowTransparency="true" frameborder="0"></iframe>
 </p>
 
-## Our User Story
+## Our User Story told with Personas
 But the prototype was not enough, and didn’t tell the whole story. To show the benefits of such an interface, I used personas and embedded the interface in a real life situation. That way I also could show potential AI capabilities and discuss with the team what is possible for us. I extracted the features and highlighted what the AI would need to accomplish to deliver that experience.
 
 <script async class="speakerdeck-embed" data-id="a33c3f9b9e7143e58e1a1e023a67e299" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
