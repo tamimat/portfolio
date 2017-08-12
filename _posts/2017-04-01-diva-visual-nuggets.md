@@ -1,8 +1,8 @@
 ---
 author:
- name: Interaction Design
-title: Learning Bit by Bit
-summary: Teaching the user different voice interaction commands with little non-interrupting visual-nuggets.
+ name: DIVA • Interaction Design
+title: Learning Bit by Bit 
+summary: (3/4) Teaching the user different voice interaction commands with little non-interrupting visual-nuggets.
 ---
 
 ```
@@ -14,12 +14,14 @@ Design workshop with the engineer and implementation.
 
 Contribution:
 Researcher, Workshop Organizer, Product Designer
+
+Year: 2017
 ```
 
 ## The Problem
 When we showed [DIVA]({{ site.baseurl }}{% post_url 2017-07-01-diva-project%}) to others, we always needed to show the features that DIVA was capable of doing, such as "Search for price range” or ”Search for attributes". The users said, "Ah, you can do that".
 
-![Under $100]({{ site.baseurl }}/img/diva-under100.png)
+![Under $100]({{ site.baseurl }}/img/diva-under100.png)<small>No hints teaching the user what she can say</small>
 
 In visual interfaces, features that are important can be consistently shown. The user sees the feature. There is an external signal that reminds him of it. For example, if you search in a e-commerce website, you can see the filters, or when you type the keywords, suggestions will be shown, with autocomplete for each new letter that you type. 
 Features of voice interfaces lack that ability. The question is how can the user be shown what capabilities the NLU has without making tours that everybody dismisses and nobody watches.
@@ -39,22 +41,22 @@ We went through all the different solutions and discussed the pros and cons of e
 
 Another thing we liked was when a skill was visualized as an icon.
 
-![Visuals]({{ site.baseurl }}/img/diva-tips-visualisation.png)
+![Visuals]({{ site.baseurl }}/img/diva-tips-visualisation.png)<small>Icons visualize skill instead of just text</small>
 
 We felt that giving the user the information in small chunks of teaching would be the best approach. We had two opportunities to do that, the start screen and the product list view screen. We sketched on the printed-out screens how and where the visual-nuggets could be placed and what we would want to teach the user. 
 
-![Visuals]({{ site.baseurl }}/img/diva-start-product.png)
+![Visuals]({{ site.baseurl }}/img/diva-start-product.png)<small>Screens where we could show the small nuggets</small>
 
 On our start screen we already had one example with a picture. We thought of having different visual examples that show different voice commands. And on our product list we could place small little examples on the bottom of the page.
 
 ## Design & Prototype
 I went straight to Sketch with the ideas and came up with different solutions. There was a back and forth between me and the engineer in Slack. The start screen looked like this:
 
-![Start v1]({{ site.baseurl }}/img/diva-start-v1.png)
+![Start v1]({{ site.baseurl }}/img/diva-start-v1.png)<small>V1: The high res pictures were to distracting</small>
 
-The start screen with the high-res images was too distracting. It felt like advertising and the speak button wasn't as prominent as before. So, I changed the images to very simple icons that I found on thenounproject.com. That way they looked more like examples of searches. To show the variety we used different examples with different text attributes, searching for color or price that changed randomly.
+The start screen with the high-res images was too distracting and too concrete. It felt like advertising and the speak button wasn't as prominent as before. So, I changed the images to very simple icons that I found on thenounproject.com. That way they looked more like examples of searches. To show the variety we used different examples with different text attributes, searching for color or price that changed randomly.
 
-![Start v2]({{ site.baseurl }}/img/diva-start-v2.png)
+![Start v2]({{ site.baseurl }}/img/diva-start-v2.png)<small>V2: Simple icons worked better as examples</small>
 
 The other opportunity to teach the user was the product list screen. The first approach looked like this:
 

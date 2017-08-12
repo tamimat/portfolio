@@ -1,8 +1,8 @@
 ---
 author:
- name: Storytelling
+ name: DIVA • Storytelling
 title: Creating a Vision & Telling a Story
-summary: This is how story telling was used to unite the team on one vision and goal.
+summary: (2/4) This is how story telling was used to unite the team on one vision and goal.
 ---
 
 ```
@@ -14,6 +14,8 @@ Tell them a story that allows them to visualize the process.
 
 Contribution:
 The storyteller and visualizer.
+
+Year: 2016
 ```
 
 ## Situation
@@ -22,21 +24,19 @@ We were at the very beginning of the [DIVA]({{ site.baseurl }}{% post_url 2017-0
 ### Research
 To understand the possibilities of intelligent assistants and voice recognition, I read many articles and downloaded every possible application to see how far things had been pushed. I completed several product purchases with these apps, and documented the process. 
 
-![Journey]({{ site.baseurl }}/img/diva-operator-journey.png)
+![Journey]({{ site.baseurl }}/img/diva-operator-journey.png)<small>Documenting the buying process in a text based ecommerce assistant</small>
 
+![Delivery]({{ site.baseurl }}/img/diva-operator-delivery.png)<small>The product arrived at home</small>
 
-![Delivery]({{ site.baseurl }}/img/diva-operator-delivery.png)
-
-
-![Return]({{ site.baseurl }}/img/diva-operator-return.png)
+![Return]({{ site.baseurl }}/img/diva-operator-return.png)<small>Documenting the return process</small>
 
 With Alexa in my home and Siri on my phone, I tried as many interactions as possible. At the end of the research phase I had a good understanding of the landscape and the approaches that were used. 
 
-![Alexa]({{ site.baseurl }}/img/diva-alexa.jpg)
+![Alexa]({{ site.baseurl }}/img/diva-alexa.jpg)<small>Experiencing voice interfaces through Alexa</small>
 
 Part of the research was to introduce my three-year-old daughter to voice assistants. Seeing how quickly she was able to search for specific videos without being able to write was amazing. This is when I truly grasped how important voice will be for the future of human-computer-interaction. 
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/WVAOKZCB104?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/WVAOKZCB104?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe><small><center>My three-year-old daughter interacting with Siri</center></small>
 
 ## Our Vision Statement 
 While doing the research, I already was working on the vision. Since the team was scattered around and focused on other tasks, it was difficult to integrate them into process. The general idea I have regarding [interfaces is they are just a glass pane](https://speakerdeck.com/tamimat/mobile-strategy-framework-beta){:target="_blank"}. We interact with computers and smartphones through different tools (mouse, keyboard and touch) just to have information displayed on the glass. The addition of voice recognition and language understanding would make the "glass" much faster. It all boils down to the following vision statement. 
@@ -68,10 +68,10 @@ So, I started and designed the very first version of DIVA. I shared the first de
 <iframe src="https://marvelapp.com/6647g90?emb=1" width="300" height="500" allowTransparency="true" frameborder="0"></iframe>
 </p>
 
-## Our User Story
+## Our User Story told with Personas
 But the prototype was not enough, and didn’t tell the whole story. To show the benefits of such an interface, I used personas and embedded the interface in a real life situation. That way I also could show potential AI capabilities and discuss with the team what is possible for us. I extracted the features and highlighted what the AI would need to accomplish to deliver that experience.
 
-<script async class="speakerdeck-embed" data-id="a33c3f9b9e7143e58e1a1e023a67e299" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
+<script async class="speakerdeck-embed" data-id="a33c3f9b9e7143e58e1a1e023a67e299" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script><small><center>My presentation communicating the vision with Personas</center></small>
 
 ## Retrospect
 The visualized story was used extensively, internally, and with external business partners. I later extended the story to other scenarios. It served us very well and gave us all a shared understanding of what we wanted to build.

@@ -1,8 +1,8 @@
 ---
 author:
- name: Design & Management
+ name: DIVA • Design & Management
 title: “Team, We Are Faster than Siri!”
-summary: Speed is crucial for voice interfaces. This is how we improved our speed by 350%.
+summary: (4/4) Speed is crucial for voice interfaces. This is how we improved our speed by 350%.
 ---
 
 ```
@@ -14,6 +14,8 @@ Impress upon engineers why this is too slow and how we can make it faster togeth
 
 Contribution:
 Product Designer and Product Manager
+
+Year: 2016
 ```
 
 ## Situation
