@@ -196,7 +196,7 @@ pre code {
 }
 small {
   font-size: .8em;
-  color: #red;
+  color: rgba({{ site.text-color }},.5);
 }
 small a {
   color: red;
