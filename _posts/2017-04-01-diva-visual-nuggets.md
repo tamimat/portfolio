@@ -21,7 +21,7 @@ Year: 2017
 ## The Problem
 When we showed [DIVA]({{ site.baseurl }}{% post_url 2017-07-01-diva-project%}) to others, we always needed to show the features that DIVA was capable of doing, such as "Search for price range” or ”Search for attributes". The users said, "Ah, you can do that".
 
-![Under $100]({{ site.baseurl }}/img/diva-under100.png)<small>No hints teaching the user what she can say</small>
+![Under $100]({{ site.baseurl }}/img/diva-under100.png)<small>No hints that teach the user what she can say</small>
 
 In visual interfaces, features that are important can be consistently shown. The user sees the feature. There is an external signal that reminds him of it. For example, if you search in a e-commerce website, you can see the filters, or when you type the keywords, suggestions will be shown, with autocomplete for each new letter that you type. 
 Features of voice interfaces lack that ability. The question is how can the user be shown what capabilities the NLU has without making tours that everybody dismisses and nobody watches.
@@ -41,7 +41,7 @@ We went through all the different solutions and discussed the pros and cons of e
 
 Another thing we liked was when a skill was visualized as an icon.
 
-![Visuals]({{ site.baseurl }}/img/diva-tips-visualisation.png)<small>Icons visualize skill instead of just text</small>
+![Visuals]({{ site.baseurl }}/img/diva-tips-visualisation.png)<small>Icons visualize skills better than just text</small>
 
 We felt that giving the user the information in small chunks of teaching would be the best approach. We had two opportunities to do that, the start screen and the product list view screen. We sketched on the printed-out screens how and where the visual-nuggets could be placed and what we would want to teach the user. 
 
@@ -58,12 +58,11 @@ The start screen with the high-res images was too distracting and too concrete. 
 
 ![Start v2]({{ site.baseurl }}/img/diva-start-v2.png)<small>V2: Simple icons worked better as examples</small>
 
-The other opportunity to teach the user was the product list screen. The first approach looked like this:
+The other opportunity to teach the user was the product list screen. To give the text-nuggets more space, I placed the microphone button on the right side. But looking at it together it didn't feel right. So, I worked on making the text shorter and placing the microphone button in the middle.
 
-![Product v1]({{ site.baseurl }}/img/diva-product-v1.png)
+![Product v1]({{ site.baseurl }}/img/diva-product-v1-v2.png)
 
-To give the text-nuggets more space, I placed the microphone button on the right side. But looking at it together it didn't feel right. So, I worked on making the text shorter and placing the microphone button in the middle.
+The second version felt like the better approach. We also had ideas to make the suggestions relevant to the first question. Implementing this "intelligence" would be possible, but would cost us more time and resources from other engineers. Therefore, we decided to push that update through and implement the intelligent part later.
 
-![Product v2]({{ site.baseurl }}/img/diva-product-v2.png)
-
-This felt like the better approach. We also had ideas to make the suggestions relevant to the first question. Implementing this "intelligence" would be possible, but would cost us more time and resources from other engineers. Therefore, we decided to push that update through and implement the intelligent part later.
+## Retrospect
+By doing a quick design workshop with the developer we were able to look at the problem as a team. Analyzing the problem together is not just more fun but can help to see the problem through each others eyes. Though we didn't have the chance to test the results in user tests we felt that the solution was an improvement to what we had before.
