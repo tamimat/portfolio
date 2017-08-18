@@ -145,7 +145,7 @@ One of our features was the filter bar. The idea is that the attributes for a pr
 
 We thought that this interaction paradigm wasn't the best solution for a thumb-oriented design. Therefore, we developed the filter bar. It was inspired by the pill-shaped buttons that were shown in other chat-based bot applications. We developed it a step further, making it possible to easily access more than just three or four options. 
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/inxlnVbcB6k?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/inxlnVbcB6k?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe><small><center>Screen recording showing the filter bar</center></small>
 
 
 ## Designing & Workflow
@@ -159,16 +159,16 @@ To design the interfaces I use Sketch.
 
 To communicate the design specifications, I used a very simple annotation style for the developer.
 
-![Annotations]({{ site.baseurl }}/img/diva-annotation-developer.png)<small>Old way to communicate measures with the developer</small>
+![Annotations]({{ site.baseurl }}/img/diva-annotation-developer.png)<small>Initial way to communicate measures with the developer</small>
 
 Later, we implemented the tool Zeplin in our workflow, which made the process better for everybody. You just upload specific designs directly from Sketch and the dimensions and images can be downloaded directly from Zeplin. 
 
-![Zeplin]({{ site.baseurl }}/img/diva-zeplin.png)<small>Zeplin made the workflow with the developer smoother</small>
+![Zeplin]({{ site.baseurl }}/img/diva-zeplin.png)<small>Later Zeplin made the workflow much smoother</small>
 
 ## Protoyping
 There is no way of checking out if an interaction works well other than prototyping it. The quicker you can experience the interaction, the faster you can decide if it is a good one. For creating flows or testing out interactions I was using Flinto. I also used other prototyping software such as Marvel, Principle, or Framer but stuck with Flinto for most cases because it was able to generate the quickest output that I needed.
 
-![Zeplin]({{ site.baseurl }}/img/diva-flinto-prototyping.png)<small>An interactive prototype built with Flinto that shows how an address entry could look like</small>
+![Zeplin]({{ site.baseurl }}/img/diva-flinto-prototyping.png)<small>Overview of an interactive prototype built with Flinto</small>
 
 ## The Dirty Work
 In every project there is the dirty work that needs to be done. Things that are tedious and take time. We had a couple of those tasks. Whenever it was possible, I coordinated with people who outsourced that work. But when it wasn't possible, I did it myself.

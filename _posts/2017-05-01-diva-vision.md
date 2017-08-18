@@ -71,7 +71,7 @@ So, I started and designed the very first version of DIVA. I shared the first de
 ## Our User Story told with Personas
 But the prototype was not enough, and didn’t tell the whole story. To show the benefits of such an interface, I used personas and embedded the interface in a real life situation. That way I also could show potential AI capabilities and discuss with the team what is possible for us. I extracted the features and highlighted what the AI would need to accomplish to deliver that experience.
 
-<script async class="speakerdeck-embed" data-id="a33c3f9b9e7143e58e1a1e023a67e299" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script><small><center>My presentation communicating the vision with Personas</center></small>
+<script async class="speakerdeck-embed" data-id="a33c3f9b9e7143e58e1a1e023a67e299" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script><small><center>My presentation communicating the vision with personas</center></small>
 
 ## Retrospect
 The visualized story was used extensively, internally, and with external business partners. I later extended the story to other scenarios. It served us very well and gave us all a shared understanding of what we wanted to build.
