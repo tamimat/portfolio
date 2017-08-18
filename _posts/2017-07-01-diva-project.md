@@ -155,7 +155,7 @@ To organize my thoughts I use post it notes.
 
 To design the interfaces I use Sketch.
 
-![Annotations]({{ site.baseurl }}/img/diva-sketch.png)<small></small>
+![Annotations]({{ site.baseurl }}/img/diva-sketch.png)<small>Sketch rocks!</small>
 
 To communicate the design specifications, I used a very simple annotation style for the developer.
 
@@ -168,7 +168,7 @@ Later, we implemented the tool Zeplin in our workflow, which made the process be
 ## Protoyping
 There is no way of checking out if an interaction works well other than prototyping it. The quicker you can experience the interaction, the faster you can decide if it is a good one. For creating flows or testing out interactions I was using Flinto. I also used other prototyping software such as Marvel, Principle, or Framer but stuck with Flinto for most cases because it was able to generate the quickest output that I needed.
 
-![Zeplin]({{ site.baseurl }}/img/diva-flinto-prototyping.png)<small>An interactive prototype that shows how an address entry could look like</small>
+![Zeplin]({{ site.baseurl }}/img/diva-flinto-prototyping.png)<small>An interactive prototype built with Flinto that shows how an address entry could look like</small>
 
 ## The Dirty Work
 In every project there is the dirty work that needs to be done. Things that are tedious and take time. We had a couple of those tasks. Whenever it was possible, I coordinated with people who outsourced that work. But when it wasn't possible, I did it myself.
@@ -197,12 +197,11 @@ To demo the technology, we generated custom apps. DIVA's design was simple and e
 
 ## Image Recognition
 
-![Image Recognition]({{ site.baseurl }}/img/diva-image-recognition
-.png)
+![Image Recognition]({{ site.baseurl }}/img/diva-image-recognition.png)<small>Simple user flow for image recognition</small>
 
 Having the application in the wild, we wanted to implement image recognition as another feature. The idea was that people could search for products by making a photo. While the team was gathering training data and building the models, I researched similar services and apps that offered a visual recognition service. I also checked the user flow of photo apps for taking a photo. With the best from both worlds, I designed a simple flow and added a camera button to the start page. When the prototype looked good and the image recognition technology was in place, we implemented the technology in the iOS client. Although we knew that the recognition technology needed to be improved, we wanted to learn how people would use such a feature.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/gQJjyue3FH0?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/gQJjyue3FH0?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe><small><center>Image recognition screen recording</center></small>
 
 ## Retrospect and Outlook
 DIVA is a bold move for a small company like AppTek. Myself as an individual, we as a team, and the company as a whole, are learning a lot. With voice interaction becoming more and more important in the future, AppTek is showing that its technology is able to be part of a voice assistant. For a small company, it is an amazing start in that promising space.

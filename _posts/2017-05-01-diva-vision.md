@@ -32,7 +32,7 @@ To understand the possibilities of intelligent assistants and voice recognition,
 
 With Alexa in my home and Siri on my phone, I tried as many interactions as possible. At the end of the research phase I had a good understanding of the landscape and the approaches that were used. 
 
-![Alexa]({{ site.baseurl }}/img/diva-alexa.jpg)<small>Experiencing voice interfaces through Alexa</small>
+![Alexa]({{ site.baseurl }}/img/diva-alexa.jpg)<small>Experiencing voice interfaces with Alexa</small>
 
 Part of the research was to introduce my three-year-old daughter to voice assistants. Seeing how quickly she was able to search for specific videos without being able to write was amazing. This is when I truly grasped how important voice will be for the future of human-computer-interaction. 
 
