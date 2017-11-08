@@ -52,7 +52,7 @@ On our start screen we already had one example with a picture. We thought of hav
 ## Design & Prototype
 I went straight to Sketch with the ideas and came up with different solutions. There was a back and forth between me and the engineer in Slack. The start screen looked like this:
 
-![Start v1]({{ site.baseurl }}/img/diva-start-v1.png)<small>V1: The high res pictures were to distracting</small>
+![Start v1]({{ site.baseurl }}/img/diva-start-v1.png)<small>V1: The high res pictures were too distracting</small>
 
 The start screen with the high-res images was too distracting and too concrete. It felt like advertising and the speak button wasn't as prominent as before. So, I changed the images to very simple icons that I found on thenounproject.com. That way they looked more like examples of searches. To show the variety we used different examples with different text attributes, searching for color or price that changed randomly.
 
