@@ -2,7 +2,8 @@
 author:
  name: DIVA • Interaction Design
 title: Learning Bit by Bit 
-summary: (3/4) Teaching the user different voice interaction commands with little non-interrupting visual-nuggets.
+summary: Teaching the user different voice interaction commands with little non-interrupting visual-nuggets.
+image: DIVA_project_03.jpg
 ---
 
 ```

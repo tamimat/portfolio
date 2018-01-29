@@ -2,7 +2,8 @@
 author:
  name: DIVA • Design & Management
 title: The E-Commerce Voice Assistant
-summary: (1/4) Building DIVA, a Siri-like assistant for e-commerce with a team of remote engineers and computer scientists.
+summary: Building DIVA, a Siri-like assistant for e-commerce with a team of remote engineers and computer scientists.
+image: DIVA_project_01.jpg
 ---
 
 ```

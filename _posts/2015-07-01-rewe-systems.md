@@ -3,6 +3,7 @@ author:
  name: nexum AG • UX Design
 title: Being a Midwife for an Interface Pattern Library
 summary: How to design an interface pattern library for a B2B software environment of a retail company.
+image: InterfaceLibrary.jpg
 ---
 ```
 Challenge:
