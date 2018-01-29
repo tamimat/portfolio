@@ -2,7 +2,8 @@
 author:
  name: DIVA • Storytelling
 title: Creating a Vision & Telling a Story
-summary: (2/4) This is how story telling was used to unite the team on one vision and goal.
+summary: This is how story telling was used to unite the team on one vision and goal.
+image: DIVA_project_02.jpg
 ---
 
 ```
