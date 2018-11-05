@@ -69,6 +69,7 @@ So, I started and designed the very first version of DIVA. I shared the first de
 <iframe src="https://marvelapp.com/6647g90?emb=1" width="300" height="500" allowTransparency="true" frameborder="0"></iframe>
 </p>
 
+
 ## Our User Story told with Personas
 But the prototype was not enough, and didn’t tell the whole story. To show the benefits of such an interface, I used personas and embedded the interface in a real life situation. That way I also could show potential AI capabilities and discuss with the team what is possible for us. I extracted the features and highlighted what the AI would need to accomplish to deliver that experience.
 
