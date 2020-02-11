@@ -16,7 +16,7 @@ Build, test, learn, build, freak out, learn, persevere, learn,…
 Contribution:
 Product Designer & Product Manager: Trying to keep a balance between my inner drive for perfection as a designer and my pragmatism as a product manager.
 
-Year: 2016 - Present
+Year: 2016 - 2018
 ```
 
 ![AppTek Commerce]({{ site.baseurl }}/img/diva-apptek-commerce.png)
